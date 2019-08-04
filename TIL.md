@@ -1,14 +1,14 @@
 TIL (2주차 까지)
 
-###Eslint 
+### Eslint 
 
-###Jest
+### Jest
 
-###github pair programming
+### github pair programming
 
-###underbar / recursion review
+### underbar / recursion review
 
-###check point 1 scope 문제
+### check point 1 scope 문제
 
 <hr/>
 
