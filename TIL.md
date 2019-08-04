@@ -1,9 +1,13 @@
 TIL (2주차 까지)
 
 ###Eslint 
+
 ###Jest
+
 ###github pair programming
+
 ###underbar / recursion review
+
 ###check point 1 scope 문제
 
 <hr/>
