@@ -1,14 +1,10 @@
 TIL (2주차 까지)
 
-#### Eslint 
-
-#### Jest
-
-#### github pair programming
-
-#### underbar / recursion review
-
-#### check point 1 scope 문제
+##### Eslint 
+##### Jest
+##### github pair programming
+##### underbar / recursion review
+##### check point 1 scope 문제
 
 <hr/>
 
@@ -147,7 +143,6 @@ fetch( url )
 *5.ES6 APIs & React (Recast.ly)
 
 React
-
 
 
 
