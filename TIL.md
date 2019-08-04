@@ -1,10 +1,12 @@
 TIL (2주차 까지)
 
-Eslint 
-Jest
-github pair programming
-underbar / recursion review
-check point 1 scope 문제
+###Eslint 
+###Jest
+###github pair programming
+###underbar / recursion review
+###check point 1 scope 문제
+
+<hr/>
 
 1.Data Structure & OOP
 일정: 2019. 7. 24.부터 2019. 7. 27.까지
