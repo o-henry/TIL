@@ -31,7 +31,7 @@ Graph, Tree, Hash Table, B-Tree Discussion
 
 #### 6.self Assesments1
 
-*6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
+### *6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
     함수 안에서 메서드를 만드는 방법
 1.  Use Closure
 2. 객체를 생성한뒤 , 해당 객체에 함수를 추가.
@@ -53,7 +53,9 @@ Graph, Tree, Hash Table, B-Tree Discussion
   traverse: [Function] }
 ```
 
-*4.Interact with Server (Chatterbox Client)
+<hr/>
+
+#### *4.Interact with Server (Chatterbox Client)
 
 
 *fetch
@@ -103,8 +105,10 @@ function logArrayElements(element, index, array) {
 
 https://www.zerocho.com/category/HTML&DOM/post/595b4bc97cafe885540c0c1c
 
+<hr/>
 
-*서버
+
+### *서버
 Web Architecture 란?
 
 이제는 삶에서 없으면 안될만큼 아주 중요한 부분을 차지하고 있는 것이 바로 인터넷이다. 처음에는 인터넷에 연결이 되기만 하면 둥둥 떠있는 것처럼 원하는 곳으로 헤엄치며 다니면서 원하는 정보를 보고 듣고 가져올 수 있을 거라고 생각했다. 아주 추상적인 생각이다. 이번 블로그에서는 이러한 일을 가능하게 만들어 주는 구성요소에 대해 간략히 알아보자.
