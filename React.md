@@ -33,7 +33,6 @@ React 엘리먼트를 루트 DOM 노드에 렌더링하려면 둘 다 ReactDOM.r
 ```
 function Welcome(props){
   return <h1>Hello, {props.name}</h1>
-  }
-  
-  ```
+}
+```
 
