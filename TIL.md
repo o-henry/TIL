@@ -31,6 +31,8 @@ Graph, Tree, Hash Table, B-Tree Discussion
 
 #### 6.self Assesments1
 
+<hr/>
+
 ### *6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
     함수 안에서 메서드를 만드는 방법
 1.  Use Closure
