@@ -50,24 +50,24 @@ class Welcome extends React.Component {
 ```
 
 ### 컴포넌트 렌더링
-```
-#const element = <div />
-#const element = <Welcome name="Sara" />;
-```
+
+const element = <div />
+const element = <Welcome name="Sara" />;
+
 
 React 가 사용자 정의 컴포넌트로 작성한 엘리먼트를 발견하면 JSX 어트리뷰트를 해당 컴포넌트에 단일 객체로 전달합니다. 이 객체를 'props' 라고 합니다.
 
-```
-#function Welcome(props) {
+
+function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
 
-#const element = <Welcome name="Sara" />;
+const element = <Welcome name="Sara" />;
 ReactDOM.render(
   element,
   document.getElementById('root')
 );
-```
+
 <Welcome name="Sara" /> 엘리먼트로 ReactDOM.render()를 호출합니다.
 React는 {name: 'Sara'}를 props로 하여 Welcome 컴포넌트를 호출합니다.
 Welcome 컴포넌트는 결과적으로 <h1>Hello, Sara</h1> 엘리먼트를 반환합니다.
