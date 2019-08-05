@@ -30,9 +30,49 @@ React 엘리먼트를 루트 DOM 노드에 렌더링하려면 둘 다 ReactDOM.r
 
 **개념적으로 컴포넌트는 JavScript 함수와 유사합니다. "props" 라고 하는 임의의 입력을 받은 후, 화면에 어떻게 표시되는지를 기술하는 React 엘리먼트를 반환합니다.**
 
+함수 컴포넌트
 ```
 function Welcome(props){
   return <h1>Hello, {props.name}</h1>
 }
 ```
+
+**이 함수는 데이터를 가진 하나의 'props'(props는 속성을 나타내는 데이터) 객체 인자를 받은 후 React 엘리멘트를 반환하므로 유효한 React 컴포넌트 입니다.
+
+ES6 class 컴포넌트
+
+```
+class Welcome extends React.Component {
+  render(){
+    return <h1>Hello, {this.props.name}</h1>
+    }
+}
+```
+
+### 컴포넌트 렌더링
+```
+const element = <div />
+const element = <Welcome name="Sara" />;
+```
+
+React 가 사용자 정의 컴포넌트로 작성한 엘리먼트를 발견하면 JSX 어트리뷰트를 해당 컴포넌트에 단일 객체로 전달합니다. 이 객체를 'props' 라고 합니다.
+
+```
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+const element = <Welcome name="Sara" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+<Welcome name="Sara" /> 엘리먼트로 ReactDOM.render()를 호출합니다.
+React는 {name: 'Sara'}를 props로 하여 Welcome 컴포넌트를 호출합니다.
+Welcome 컴포넌트는 결과적으로 <h1>Hello, Sara</h1> 엘리먼트를 반환합니다.
+React DOM은 <h1>Hello, Sara</h1> 엘리먼트와 일치하도록 DOM을 효율적으로 업데이트합니다.
+
+
+
 
