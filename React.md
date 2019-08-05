@@ -22,8 +22,8 @@ Virtual DOM 은 가상의 DOM 입니다. 변화가 일어나면, 실제로 브�
 React로 구현된 애플리케이션은 일반적으로 하나의 루트 DOM 노드가 있습니다. React를 기존 앱에 통합하려는 경우 원하는 만큼 많은 수의 독립된 루트 DOM 노드가 있을 수 있습니다.
 
 React 엘리먼트를 루트 DOM 노드에 렌더링하려면 둘 다 ReactDOM.render()로 전달하면 됩니다.
-<hr/>
 
+<hr/>
 ### 함수 컴포넌트와 클래스 컴포넌트( Components and Props )
 컴포넌트를 통해 UI를 재사용 가능한 개별적인 여러 조각으로 나누고, 각 조각을 개별적으로 살펴볼 수 있습니다.
 
@@ -52,6 +52,34 @@ class Welcome extends React.Component {
 <hr/>
 
 ### State and Lifecycle
+#### 엘리먼트 렌더링
+렌더링된 엘리먼트 업데이트 하기.
+React 엘리먼트는 불변객체 입니다. 엘리먼트는 영화에서 하나의 프레임과 같이 특정 시점의 UI를 보여줍니다.
+```
+function tick(){
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.<h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById('root'));
+}
+
+setInterval(tick, 1000);
+```
+위 함수는 setInterval() 콜백을 이용해 초마다 ReactDOM.render()를 호출합니다.
+대부분의 React 앱은 ReactDOM.render()를 한번만 호출 합니다. 
+(유상태 컴포넌트에 어떻게 캡슐화 되는가
+
+변경된 부분만 업데이트
+React DOM은 해당 엘리먼트와 그 자식 엘리먼트를 이전의 엘리먼트와 비교하고 DOM을 원하는 상태로 만드는데 필요한 경우에만 DOM을 업데이트.
+매초 전체 UI를 다시 그리도록 엘리먼트를 만들었지만 React DOM은 내용이 변경된 텍스트 노드만 업데이트했습니다.
+
+경험에 비추어 볼 때 특정 시점에 UI가 어떻게 보일지 고민하는 이런 접근법은 시간의 변화에 따라 UI가 어떻게 변화할지 고민하는 것보다 더 많은 수의 버그를 없앨 수 있습니다.
+
+
+<hr/>
 
 ```
 function tick() {
