@@ -12,29 +12,24 @@ TIL (2주차 까지)
 <hr/>
 
 
-1.Data Structure & OOP
+#### 1.Data Structure & OOP
 일정: 2019. 7. 24.부터 2019. 7. 27.까지
 Graph, Tree, Hash Table, B-Tree Discussion
 일정: 2019. 7. 25. 오전 10:00부터 오전 11:30까지
 
-2.Inheritance pattern - Dance Party
+#### 2.Inheritance pattern - Dance Party
 일정: 2019. 7. 29.부터 2019. 7. 30.까지
 
-3.Algorithms (N-Queens)
+#### 3.Algorithms (N-Queens)
 일정: 2019. 7. 31.부터 2019. 8. 1.까지
 
-4.Interact with Server (Chatterbox Client)
+#### 4.Interact with Server (Chatterbox Client)
 일정: 2019. 8. 2.부터 2019. 8. 3.까지
 
-5.ES6 APIs & React (Recast.ly)
+#### 5.ES6 APIs & React (Recast.ly)
 일정: 2019. 8. 5.부터 2019. 8. 8.까지
 
-6.self Assesments1
-
-블로깅
-문제 정리
-TIL 정리
-리액트 정리
+#### 6.self Assesments1
 
 *6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
     함수 안에서 메서드를 만드는 방법
@@ -77,12 +72,15 @@ fetch('주소', 설정객체).then(콜백).catch(콜백);
 then 을 통해 받아온 값을 처리 할 수 있다.
 
 // GET
+
 ```
 fetch("/test.json") // (/test.json) 호출 (GET)
     .then(e => e.json()) // 비동기
      .then(e => console.log(e)); // 비동기
 ```
+
 // 옵션으로 POST
+
 ```
 fetch("/test.json", {
         method: "POST" // (/test.json) 호출 (POST)
@@ -133,6 +131,7 @@ Asyncronous Javascript and XML(AJAX)
 비동기적으로 작동하는 자바스크립트를 이렇게 부른다. 하나의 개념이라고 생각하면 쉽다. AJAX의 장점은 전체를 새로고침 하지 않고 필요한 부분만을 업데이트 할 수 있다.
 fetch
 fetch는 ajax를 구현하는 여러방식 중에 하나
+
 ```
 fetch( url )
   .then(response => response.json())
