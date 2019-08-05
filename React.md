@@ -135,6 +135,16 @@ class Clock extends React.Component {
     );
   }
 }
+
+function tick(){
+  ReactDOM.render(
+    <Clock date={new Date()} />,
+    document.getElementById('root')
+    );
+  }
+}
+
+setInterval(tick, 1000)
 ```
 
 render 메서드는 업데이트가 발생할 때마다 호출되지만, 같은 DOM 노드로 <Clock />을 렌더링하는 경우 Clock 클래스의 단일 인스턴스만 사용됩니다. 
@@ -147,3 +157,22 @@ render 메서드는 업데이트가 발생할 때마다 호출되지만, 같은 
 Component 에 state 를 사용하기 위해서 functiond으로 구현된 Component를 class로 구현해야 합니다.
 
 ### State
+```
+class Clock extends React.Component {
+  render() {
+    return (
+      <h1>{this.props.date.toLocaleTimeString()}</h1> 
+    );
+  }
+}
+ 
+function tick() {
+  ReactDOM.render(
+    <Clock date={new Date()} />,
+    document.getElementById('root')
+  );
+}
+ 
+setInterval(tick, 1000);
+```
+
