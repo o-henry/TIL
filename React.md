@@ -119,3 +119,20 @@ Clock이 타이머를 설정하고 매초 UI를 업데이트하는 것이 Clock�
 >4.render() 내용 안에 있는 props를 this.props로 변경합니다.
 
 >5.남아있는 빈 함수 선언을 삭제합니다.
+
+
+```
+class Clock extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2> It is {this.props.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
+  }
+}
+```
+
+render 메서드는 업데이트가 발생할 때마다 호출되지만, 같은 DOM 노드로 <Clock />을 렌더링하는 경우 Clock 클래스의 단일 인스턴스만 사용됩니다. 
+이것은 로컬 state와 생명주기 메서드와 같은 부가적인 기능을 사용할 수 있게 해줍니다.
