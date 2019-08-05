@@ -61,10 +61,10 @@ Graph, Tree, Hash Table, B-Tree Discussion
 
 
 > fetch
-fetch (꺼냄)
-미국·영국 [fetʃ] 발음듣기 영국식 발음듣기 중요도 별점 2개 다른 뜻(4건) 예문보기
-1. (어디를 가서) 가지고 오다   2. (특정 가격에) 팔리다
-https://terms.naver.com/entry.nhn?docId=823204&cid=42344&categoryId=42344
+>fetch (꺼냄)
+> 미국·영국 [fetʃ] 발음듣기 영국식 발음듣기 중요도 별점 2개 다른 뜻(4건) 예문보기
+> 1. (어디를 가서) 가지고 오다   2. (특정 가격에) 팔리다
+> https://terms.naver.com/entry.nhn?docId=823204&cid=42344&categoryId=42344
 
 fetch()를 불러들이는 경우, 취득할 리소스를 반드시 인수로 지정하지 않으면 안됩니다. 읽어들인 뒤,  fetch()는 Promise객체를 반환합니다. 리퀘스트가 성공하든 실패하든 해당 리퀘스트 통신에 대한 Response객체가 취득됩니다. fetch()의 두번째 인수는 초기화에 사용되는 객체를 정의하고 있습니다. 이 인수는 기입하지 않아도 함수의 동작에 문제가 없습니다. 이 인수에 대한 상세한 정보는 Request)를 참고해주시기 바랍니다.
 
