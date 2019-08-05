@@ -52,8 +52,8 @@ class Welcome extends React.Component {
 ### 컴포넌트 렌더링
 
 ```
-//const element = <div />//
-//const element = <Welcome name="Sara" />//
+///const element = <div />///
+///const element = <Welcome name="Sara" />///
 ```
 
 React 가 사용자 정의 컴포넌트로 작성한 엘리먼트를 발견하면 JSX 어트리뷰트를 해당 컴포넌트에 단일 객체로 전달합니다. 이 객체를 'props' 라고 합니다.
