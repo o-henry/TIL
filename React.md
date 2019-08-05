@@ -157,8 +157,14 @@ render 메서드는 업데이트가 발생할 때마다 호출되지만, 같은 
 Component 에 state 를 사용하기 위해서 functiond으로 구현된 Component를 class로 구현해야 합니다.
 
 ### State
+
 ```
 class Clock extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {date : new Date()};
+  }
+  
   render() {
     return (
       <h1>{this.props.date.toLocaleTimeString()}</h1> 
@@ -175,4 +181,11 @@ function tick() {
  
 setInterval(tick, 1000);
 ```
+
+props => state로 변경하는 코드 
+
+
+
+
+
 
