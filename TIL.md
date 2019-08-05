@@ -149,10 +149,7 @@ fetch( url )
 ```
 
 웹 서비스는 위의 구성요소를 활용하여 사용자들이 여러 정보를 주고 받는 일련의 방식/형태
- 
-*5.ES6 APIs & React (Recast.ly)
 
-React
 
 
 
