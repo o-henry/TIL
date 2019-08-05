@@ -60,8 +60,7 @@ Graph, Tree, Hash Table, B-Tree Discussion
 #### *4.Interact with Server (Chatterbox Client)
 
 
-*fetch
-
+> fetch
 fetch (꺼냄)
 미국·영국 [fetʃ] 발음듣기 영국식 발음듣기 중요도 별점 2개 다른 뜻(4건) 예문보기
 1. (어디를 가서) 가지고 오다   2. (특정 가격에) 팔리다
