@@ -183,7 +183,16 @@ setInterval(tick, 1000);
 ```
 
 props => state로 변경하는 코드 
+<hr/>
 
+### React.Component 
+(https://ko.reactjs.org/docs/react-component.html)
+
+*아래의 메서드들은 컴포넌트의 인스턴스가 생성되어 DOM 상에 삽입될때에 순서대로 호출 됩니다.
+1.  constructor()
+2.  static getDerivedStateFromProps()
+3.  redner()
+4.  componentDidMount()
 
 
 
