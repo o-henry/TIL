@@ -188,13 +188,23 @@ props => state로 변경하는 코드
 ### React.Component 
 (https://ko.reactjs.org/docs/react-component.html)
 
+#### 마운트
 *아래의 메서드들은 컴포넌트의 인스턴스가 생성되어 DOM 상에 삽입될때에 순서대로 호출 됩니다.
-1.  constructor()
-2.  static getDerivedStateFromProps()
-3.  redner()
-4.  componentDidMount()
+1.constructor()
+2.static getDerivedStateFromProps()
+3.redner()
+4.componentDidMount()
 
+#### 업데이트
+*props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드들은 컴포넌트가 다시 렌더링될 때 순서대로 호출됩니다.
+1.static getDerivedStateFromProps()
+2.shouldComponentUpdate()
+3.render()
+4.getSnapshotBeforeUpdate()
+5.componentDidUpdate()
 
-
+#### setState()
+setState(updater[, callback])
+setState()는 컴포넌트 state의 변경 사항
 
 
