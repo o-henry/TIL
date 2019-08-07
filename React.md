@@ -64,16 +64,19 @@ child의 관점에서 name prop은 불변값 이다. 만약, 변경이 필요한
 Use state to store the data you current page needs in your controller view.
 Use props to pass data & event handlers down to your child components.
 
-### Props
-are immutable
+
+>Props
 are used to pass data down from your view-controller
 your top level component
 use this to pass data to child components
+Props shouldn't change(immutable), so state steps up.
+Normally components don't have state so are referred to as stateless.
 
-### State
+>State
 is mutable
 should not be accessed from child components
 pass it down with props instead
+
 
 
 ### 컴포넌트 렌더링
