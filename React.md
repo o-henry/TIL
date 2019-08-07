@@ -157,6 +157,30 @@ render 메서드는 업데이트가 발생할 때마다 호출되지만, 같은 
 Component 에 state 를 사용하기 위해서 functiond으로 구현된 Component를 class로 구현해야 합니다.
 
 ### State
+컴포넌트에서 관리하는 상태 값으로 유동적인 데이터를 다룰 때, state 를 사용한다. state는 변경이 가능하고 변경할 때는 setState 메서드를 사용해 상태를 변경한다. setState는 비동기로 동작하며 동작완료에 대한 콜백을 설정할 수 있다.
+
+```js
+class Button extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      count: 0
+    };
+  }
+
+  updateCount = () => {
+    this.setState({ count: this.state.count + 1 });
+  }
+
+  render() {
+    return (
+      <button onClick={this.updateCount}>
+        Clicked {this.state.count} times
+      </button>
+    );
+  }
+}
+```
 
 ```js
 class Clock extends React.Component {
