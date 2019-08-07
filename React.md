@@ -51,6 +51,31 @@ class Welcome extends React.Component {
 }
 ```
 
+Props 와 State 는 연관이 있습니다. 종종 The state of one component 는 child component 의
+props 가 된다. Props 는 parent의 메서드 rernder method 로 child로 넘어간다.
+``` <MyChild name={this.state.childsName} />```
+부모 state value 인 childsName 은 child의 ```this.props.name``` 이 된다.
+child의 관점에서 name prop은 불변값 이다. 만약, 변경이 필요한 경우 부모는 internal state를 변경해야 한다.
+``` this.setState({ childsName: 'New name' }); ```
+그리고 React는 child에게 이를 전달한다. 
+
+```<MyChild name={this.state.childsName} onNameChanged={this.handleName} />```
+
+Use state to store the data you current page needs in your controller view.
+Use props to pass data & event handlers down to your child components.
+
+### Props
+are immutable
+are used to pass data down from your view-controller
+your top level component
+use this to pass data to child components
+
+### State
+is mutable
+should not be accessed from child components
+pass it down with props instead
+
+
 ### 컴포넌트 렌더링
 <hr/>
 
