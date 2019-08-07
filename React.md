@@ -33,7 +33,7 @@ React 엘리먼트를 루트 DOM 노드에 렌더링하려면 둘 다 ReactDOM.r
 **개념적으로 컴포넌트는 JavScript 함수와 유사합니다. "props" 라고 하는 임의의 입력을 받은 후, 화면에 어떻게 표시되는지를 기술하는 React 엘리먼트를 반환합니다.**
 
 함수 컴포넌트
-```
+```js
 function Welcome(props){
   return <h1>Hello, {props.name}</h1>
 }
@@ -43,7 +43,7 @@ function Welcome(props){
 
 ES6 class 컴포넌트
 
-```
+```js
 class Welcome extends React.Component {
   render(){
     return <h1>Hello, {this.props.name}</h1>
@@ -58,7 +58,7 @@ class Welcome extends React.Component {
 #### 엘리먼트 렌더링
 렌더링된 엘리먼트 업데이트 하기.
 React 엘리먼트는 불변객체 입니다. 엘리먼트는 영화에서 하나의 프레임과 같이 특정 시점의 UI를 보여줍니다.
-```
+```js
 function tick(){
   const element = (
     <div>
@@ -88,7 +88,7 @@ Clock 컴포넌트를 완전히 재사용하고 캡슐화하는 방법을 배울
 
 시계가 생긴 것에 따라 캡슐화하는 것으로 시작할 수 있습니다.
 
-```
+```js
 function Clock(props) {
   const element = (
     <div>
@@ -124,7 +124,7 @@ Clock이 타이머를 설정하고 매초 UI를 업데이트하는 것이 Clock�
 >5.남아있는 빈 함수 선언을 삭제합니다.
 
 
-```
+```js
 class Clock extends React.Component {
   render() {
     return (
@@ -158,7 +158,7 @@ Component 에 state 를 사용하기 위해서 functiond으로 구현된 Compone
 
 ### State
 
-```
+```js
 class Clock extends React.Component {
   constructor(props){
     super(props);
