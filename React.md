@@ -13,6 +13,7 @@ interaction이 증가할 수록 관리가 힘들다는 문제가 있다.
 이를 해결하기 위해서 React 같은 라이브러리가 등장. React는 Component(독립적 모듈, 나만의 HTML tag)로 구성되어있다.
 
 <hr/>
+
 ```js
 //! functional
 
