@@ -91,7 +91,7 @@ ReactDOM.render(
   document.getElementById("app")
 );
 
-//! 최종
+// 최종
 
 var students = [
   { name: "Saejung Kim", photo: " ./saejung.jpg" },
