@@ -43,7 +43,7 @@ Graph, Tree, Hash Table, B-Tree Discussion
 1. 먼저 데이터가 담길 구조를 잡는다.
 2. 프로토타입을 어떻게 이용할지 고려한다. => Object.assign(obj, method가 될 객체)
 
-```
+```js
 'tree' { value: 2,
   children:
    [ { value: 5,
@@ -77,7 +77,7 @@ then 을 통해 받아온 값을 처리 할 수 있다.
 
 *GET
 
-```
+```js
 fetch("/test.json") // (/test.json) 호출 (GET)
     .then(e => e.json()) // 비동기
      .then(e => console.log(e)); // 비동기
@@ -85,7 +85,7 @@ fetch("/test.json") // (/test.json) 호출 (GET)
 
 *옵션으로 POST
 
-```
+```js
 fetch("/test.json", {
         method: "POST" // (/test.json) 호출 (POST)
     }).then(e => e.json()) // 비동기
@@ -140,7 +140,7 @@ Asyncronous Javascript and XML(AJAX)
 fetch
 fetch는 ajax를 구현하는 여러방식 중에 하나
 
-```
+```js
 fetch( url )
   .then(response => response.json())
   .then(result => console.log(result))
