@@ -9,9 +9,9 @@
 2. 이미지 DOM의 소스를 바꿀 이미지로 바꾼다.
 3. 바뀐 이미지를 화면에 다시 띄어준다.
 
-interaction이 증가할 수록 관리가 힘들다는 문제가 있다.
-이를 해결하기 위해서 React 같은 라이브러리가 등장. 
-React는 Component(독립적 모듈, 나만의 HTML tag)로 구성되어있다.
+interaction이 증가할 수록 관리가 힘들다는 문제가 있습니다.
+이를 해결하기 위해서 React 같은 라이브러리가 등장 했습니다. 
+React는 Component(독립적 모듈, 나만의 HTML tag)로 구성 .
 
 <hr/>
 
