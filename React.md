@@ -65,18 +65,18 @@ Use state to store the data you current page needs in your controller view.
 Use props to pass data & event handlers down to your child components.
 
 
->Props
-are used to pass data down from your view-controller
+### Props
+>are used to pass data down from your view-controller
 your top level component
 use this to pass data to child components
 Props shouldn't change(immutable), so state steps up.
 Normally components don't have state so are referred to as stateless.
 
->State
-is mutable
+### State
+> is mutable
 should not be accessed from child components
 pass it down with props instead
-
+state is used so that a component can keep track of information in between any renders that it does. When you setState it updates the state object and then re-renders the component. 
 
 
 ### 컴포넌트 렌더링
