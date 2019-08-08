@@ -75,7 +75,7 @@ fetch('주소', 설정객체).then(콜백).catch(콜백);
 .. fetch 만을 했을때는 서버에 저장된 정보를 그대로 가져온다.
 then 을 통해 받아온 값을 처리 할 수 있다.
 
-// GET
+*GET
 
 ```
 fetch("/test.json") // (/test.json) 호출 (GET)
@@ -83,7 +83,7 @@ fetch("/test.json") // (/test.json) 호출 (GET)
      .then(e => console.log(e)); // 비동기
 ```
 
-// 옵션으로 POST
+*옵션으로 POST
 
 ```
 fetch("/test.json", {
