@@ -1,5 +1,106 @@
 ### React Component
+```js
+//! functional
 
+var students = [
+  { name: "Saejung Kim", photo: " ./saejung.jpg" },
+  { name: "Pika", photo: " ./pika.jpg" }
+];
+
+var getStudent = function() {
+  var randomIdx = Math.floor(Math.random() * students.length);
+  return students[randomIdx];
+};
+
+var Profile = function(name, photo) {
+  this.name = name;
+  this.photo = photo;
+};
+
+Profile.prototype.render = function() {
+  var element = document.createElement("div");
+  var nameText = document.createTextNode(this.name);
+  element.appendChild(nameText);
+
+  var photo = document.createElement("img");
+  photo.setAttribute("src", this.photo);
+  element.appendChild(photo);
+
+  return element;
+};
+
+var displayOnTheDOM = function(componentInstacne, targetNode) {
+  var newEl = componentInstacne.render();
+  targetNode.appendChild(newEl);
+};
+
+var s = getStudent();
+var p = new Profile(s.name, s.photo);
+document.getElementById("app").appendChild(p.render());
+```
+
+```js
+import React from "react";
+
+//! React
+var students = [
+  { name: "Saejung Kim", photo: " ./saejung.jpg" },
+  { name: "Pika", photo: " ./pika.jpg" }
+];
+
+var getStudent = function() {
+  var randomIdx = Math.floor(Math.random() * students.length);
+  return students[randomIdx];
+};
+
+class Profile extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <div>{this.props.name}</div>
+        <img src={this.props.photo} />
+      </div>
+    );
+  }
+}
+
+var s = getStudent();
+ReactDOM.render(
+  <Profile name={s.name} photo={s.photo} />,
+  //   new Prorfile({ name: s.name, photo: s.photo }),
+  document.getElementById("app")
+);
+
+//! 최종
+
+var students = [
+  { name: "Saejung Kim", photo: " ./saejung.jpg" },
+  { name: "Pika", photo: " ./pika.jpg" }
+];
+
+var getStudent = function() {
+  var randomIdx = Math.floor(Math.random() * students.length);
+  return students[randomIdx];
+};
+
+var Profile = props => {
+  <div>
+    <div>{props.name}</div>
+    <img src={props.photo} />
+  </div>;
+};
+
+var s = getStudent();
+ReactDOM.render(
+  <Profile name={s.name} photo={s.photo} />,
+  //   new Prorfile({ name: s.name, photo: s.photo }),
+  document.getElementById("app")
+);
+```
 <hr/>
 
 “컴포넌트” 라는 개념에 집중이 되어있는 라이브러리입니다. 데이터를 넣으면 우리가 지정한 유저 인터페이스를 조립해서 보여줍니다. 페이스북 개발자들이 라이브러리의 성능과 개발자 경험을 개선하기 위해 많은 연구를 합니다. 리액트를 한번 해본 개발자들은 대부분 맘에 들어합니다. 생태계가 엄청 넓고, 사용하는 곳도 많습니다. HTTP 클라이언트, 라우터, 심화적 상태 관리 등의 기능들은 내장되어있지 않습니다. 따로 공식 라이브러리가 있는 것도 아니여서, 개발자가 원하는 스택을 맘대로 골라서 사용 할 수 있습니다 (혹은 직접 라이브러리를 만들어서 쓸 수도 있겠죠.)
