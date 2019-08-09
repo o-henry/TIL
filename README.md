@@ -212,13 +212,15 @@ setState를 이용하는 함수를 만들어서 자식 Component에게 props로 
 ```js 
 this.setState
 ```
-부모 Component(Class) 에서 setState 함수를 만들어서 자식 Component(functional)를 넘겨줬을때,
+A: 부모 Component(Class) 에서 setState 함수를 만들어서 B: 자식 Component(functional)를 넘겨줬을때,
 (함수안에는 this.setState 라는 동작을하고 있다.)
-위 this는 자식이 된다.
-B는 functional 이기 때문에 B가 안된다. 상태가 없기때문.
-그리고 우리는 A를 바꾸고 싶다.
+위 this는 B가 된다.
+B는 functional 이어서 상태가 없기 때문에 this는 B가 안된다. 
+그리고 우리는 A를 바꾸고 싶은 상황이다.
 
-따라서 우리는 bind를 사용한다.
+따라서 우리는 bind를 사용한다. this가 무엇인지를 고려해야 한다. A를 바인딩 한다.
+
+
 
 
 
