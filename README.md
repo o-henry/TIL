@@ -174,7 +174,8 @@ var b = { foo: 1, b: { c: { d: { e: 'potato' } } } };
 테스트 케이스에서 주어진 값에 조건을 맞춰가다 보면 base case가 잡히고,
 이를 토대로 재귀가 필요한 부분에 대한 사고가 가능하다.
 
-
+2. React Spring Animation
+ https://www.evernote.com/l/AO_1N8Wyz5REB6QHUQXgxuXYGRxUAwIS8nE
 
 
 
