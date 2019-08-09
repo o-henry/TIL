@@ -1,5 +1,5 @@
 
-### TIL (2주차 까지)
+## TIL - 20190803
 
 ##### 1.Eslint 
 ##### 2.Jest
@@ -154,7 +154,7 @@ fetch( url )
 
 <hr />
 
-### TIL 2019.08.09 Fri
+## 20190809 Fri
 
 1. ToyProblem 09(deep Equal)
 재귀를 이용한 풀이. 
