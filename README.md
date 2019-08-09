@@ -182,10 +182,16 @@ var b = { foo: 1, b: { c: { d: { e: 'potato' } } } };
 2. React Spring Animation
  https://www.evernote.com/l/AO_1N8Wyz5REB6QHUQXgxuXYGRxUAwIS8nE
 
+## SPRINT REVIEW Reactly
+*props: 부모(상위) Component 에서 자식(하위) Component로 내려주는 데이터, 리액트 에서는 단방향 데이터이기 때문에 내려갈 수 만 있다. 즉 다시 상위로 올라갈 수 없다. ( 간접적으로 올릴 수 있다. = state )
 
+*state: class Component에 존재하며, Component가 갖고 있는 상태.
+모든 Component에서 state를 갖을수 있으나, 모든 곳에서 갖고있는건 비효율적이다.
+state = 변화를 감지하고, 바꿀수 있다.
+어떤 Component에서 "state를 관리" 할때 가장 좋을지를 고려하면서 코딩해야 한다.
+데이터 흐름을 항상 염두에 둬야한다. ( 데이터를 어디에서 가지고있을 것인가 염두할 것 )
 
-
-
+*Lifting state up
 
 
 
