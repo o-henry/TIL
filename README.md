@@ -220,7 +220,8 @@ B는 functional 이어서 상태가 없기 때문에 this는 B가 안된다.
 
 따라서 우리는 bind를 사용한다. this가 무엇인지를 고려해야 한다. A를 바인딩 한다.
 
-
+Component depth가 깊어져서 state 관리가 힘들수 있다. (drilling) 
+구조를 짜는게 중요하다.
 
 
 
