@@ -214,7 +214,8 @@ setState를 이용하는 함수를 만들어서 자식 Component에게 props로 
 그리고 만든 이 함수를 자식에 props로 내려주고
 자식은 이 함수를 통해 부모 Component를 바꾸는 구조.
 
-##### bind issue
+
+#### bind issue
 
 ```js 
 this.setState
