@@ -183,15 +183,45 @@ var b = { foo: 1, b: { c: { d: { e: 'potato' } } } };
  https://www.evernote.com/l/AO_1N8Wyz5REB6QHUQXgxuXYGRxUAwIS8nE
 
 ## SPRINT REVIEW Reactly
-*props: 부모(상위) Component 에서 자식(하위) Component로 내려주는 데이터, 리액트 에서는 단방향 데이터이기 때문에 내려갈 수 만 있다. 즉 다시 상위로 올라갈 수 없다. ( 간접적으로 올릴 수 있다. = state )
+>props: 부모(상위) Component 에서 자식(하위) Component로 내려주는 데이터, 리액트 에서는 단방향 데이터이기 때문에 내려갈 수 만 있다. 즉 다시 상위로 올라갈 수 없다. ( 간접적으로 올릴 수 있다. = state )
 
-*state: class Component에 존재하며, Component가 갖고 있는 상태.
+>state: class Component에 존재하며, Component가 갖고 있는 상태.
 모든 Component에서 state를 갖을수 있으나, 모든 곳에서 갖고있는건 비효율적이다.
 state = 변화를 감지하고, 바꿀수 있다.
 어떤 Component에서 "state를 관리" 할때 가장 좋을지를 고려하면서 코딩해야 한다.
 데이터 흐름을 항상 염두에 둬야한다. ( 데이터를 어디에서 가지고있을 것인가 염두할 것 )
 
-*Lifting state up
+>Lifting state up
+자식 Component의 액션으로 인해서 부모 Component의 state가 바뀌는것을 의미한다.
+예) 검색구현, 검색 을 했을때 App 에 있는 State를 변경 ( 자식 Component 가 부모 Component State 를 변경 )
+하지만, 데이터를 자식에서 부모로 바로 올릴수 는 없다.
+setState를 이용하는 함수를 만들어서 자식 Component에게 props로 내려준다.
+
+즉, 부모 Component에서 먼저 자신의 state를 바꾸는 함수를 자식 Component에 Props로 넘겨준다.
+그후, 자식이 위 함수를 실행시키면 부모의 state가 바뀐다. 
+자식의 어떤 액션을 통해서 부모의 state를 바꾸는 일의 과정이 위와 같다.
+위 함수에 매개변수를 넘기면 => 부모와 자식이 같은 매개변수를 참조? 한다.
+
+>자식 컴포넌트가 부모 Component State를 바꾸기 위해서는
+부모 Component 에서 먼저 자신의 state를 바꿀 함수를 만든다.
+그리고 만든 이 함수를 자식에 props로 내려주고
+자식은 이 함수를 통해 부모 Component를 바꾸는 구조.
+
+##### bind issue
+
+```js 
+this.setState
+```
+부모 Component(Class) 에서 setState 함수를 만들어서 자식 Component(functional)를 넘겨줬을때,
+(함수안에는 this.setState 라는 동작을하고 있다.)
+위 this는 자식이 된다.
+B는 functional 이기 때문에 B가 안된다. 상태가 없기때문.
+그리고 우리는 A를 바꾸고 싶다.
+
+따라서 우리는 bind를 사용한다.
+
+
+
 
 
 
