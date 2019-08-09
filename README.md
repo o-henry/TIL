@@ -34,7 +34,7 @@ Graph, Tree, Hash Table, B-Tree Discussion
 
 <hr/>
 
-### *6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
+### 6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
     함수 안에서 메서드를 만드는 방법
 1.  Use Closure
 2. 객체를 생성한뒤 , 해당 객체에 함수를 추가.
@@ -58,7 +58,7 @@ Graph, Tree, Hash Table, B-Tree Discussion
 
 <hr/>
 
-#### *4.Interact with Server (Chatterbox Client)
+#### 4.Interact with Server (Chatterbox Client)
 
 
 > fetch
@@ -219,6 +219,8 @@ B는 functional 이어서 상태가 없기 때문에 this는 B가 안된다.
 그리고 우리는 A를 바꾸고 싶은 상황이다.
 
 따라서 우리는 bind를 사용한다. this가 무엇인지를 고려해야 한다. A를 바인딩 한다.
+
+
 
 
 
