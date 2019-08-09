@@ -185,11 +185,18 @@ var b = { foo: 1, b: { c: { d: { e: 'potato' } } } };
 ## SPRINT REVIEW Reactly
 >props: 부모(상위) Component 에서 자식(하위) Component로 내려주는 데이터, 리액트 에서는 단방향 데이터이기 때문에 내려갈 수 만 있다. 즉 다시 상위로 올라갈 수 없다. ( 간접적으로 올릴 수 있다. = state )
 
+
 >state: class Component에 존재하며, Component가 갖고 있는 상태.
 모든 Component에서 state를 갖을수 있으나, 모든 곳에서 갖고있는건 비효율적이다.
 state = 변화를 감지하고, 바꿀수 있다.
 어떤 Component에서 "state를 관리" 할때 가장 좋을지를 고려하면서 코딩해야 한다.
 데이터 흐름을 항상 염두에 둬야한다. ( 데이터를 어디에서 가지고있을 것인가 염두할 것 )
+
+클래스 컴포넌트에서 사용 가능
+컴포넌트 내부에서만 접근 가능하다(private)
+immutable
+변경하려면 setState() 사용
+state 변화의 결과로 life cycle이 순환한다.
 
 >Lifting state up
 자식 Component의 액션으로 인해서 부모 Component의 state가 바뀌는것을 의미한다.
@@ -222,6 +229,13 @@ B는 functional 이어서 상태가 없기 때문에 this는 B가 안된다.
 
 Component depth가 깊어져서 state 관리가 힘들수 있다. (drilling) 
 구조를 짜는게 중요하다.
+
+Life Cycle API 
+컴포넌트의 생애주기 각 시점에 원하는 작업을 수행할 수 있게 도와주는 API
+
+ 클래스
+
+
 
 
 
