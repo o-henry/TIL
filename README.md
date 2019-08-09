@@ -192,10 +192,8 @@ state = 변화를 감지하고, 바꿀수 있다.
 어떤 Component에서 "state를 관리" 할때 가장 좋을지를 고려하면서 코딩해야 한다.
 데이터 흐름을 항상 염두에 둬야한다. ( 데이터를 어디에서 가지고있을 것인가 염두할 것 )
 
-클래스 컴포넌트에서 사용 가능
-컴포넌트 내부에서만 접근 가능하다(private)
-immutable
-변경하려면 setState() 사용
+>클래스 컴포넌트에서 사용 가능. 
+컴포넌트 내부에서만 접근 가능하다(private). immutable / 변경하려면 setState() 사용
 state 변화의 결과로 life cycle이 순환한다.
 
 >Lifting state up
