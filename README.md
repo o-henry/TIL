@@ -152,11 +152,27 @@ fetch( url )
 웹 서비스는 위의 구성요소를 활용하여 사용자들이 여러 정보를 주고 받는 일련의 방식/형태
 
 
+<hr />
+
+### TIL 2019.08.09 Fri
+
+1. ToyProblem 09(deep Equal)
+재귀를 이용한 풀이. 
+재귀적 사고 -> 작은것부터 해결한다.
 
 
+```js
+deepEquals({}, {}).should.be.true();
+var a = { foo: 'bar' };
+var b = { foo: 'pow' };
+deepEquals({a:1, b: {c:3}},{a:1, b: {c:3}}); // true
+deepEquals({a:1, b: {c:5}},{a:1, b: {c:6}}); // false
+var a = { foo: 1, b: { c: { d: { e: 'potato' } } } };
+var b = { foo: 1, b: { c: { d: { e: 'potato' } } } };
+```
 
-
-
+테스트 케이스에서 주어진 값에 조건을 맞춰가다 보면 base case가 잡히고,
+이를 토대로 재귀가 필요한 부분에 대한 사고가 가능하다.
 
 
 
