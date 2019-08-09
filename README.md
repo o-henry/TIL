@@ -154,7 +154,7 @@ fetch( url )
 
 <hr />
 
-## 20190809 Fri
+## 20190809 FRI
 
 1. ToyProblem 09(deep Equal)
 재귀를 이용한 풀이. 
