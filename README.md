@@ -182,7 +182,7 @@ var b = { foo: 1, b: { c: { d: { e: 'potato' } } } };
 #### 2. React Spring Animation
  https://www.evernote.com/l/AO_1N8Wyz5REB6QHUQXgxuXYGRxUAwIS8nE
 
-## SPRINT REVIEW Reactly
+## 3. SPRINT REVIEW Reactly
 >props: 부모(상위) Component 에서 자식(하위) Component로 내려주는 데이터, 리액트 에서는 단방향 데이터이기 때문에 내려갈 수 만 있다. 즉 다시 상위로 올라갈 수 없다. ( 간접적으로 올릴 수 있다. = state )
 
 
@@ -232,7 +232,8 @@ Component depth가 깊어져서 state 관리가 힘들수 있다. (drilling)
 Life Cycle API 
 컴포넌트의 생애주기 각 시점에 원하는 작업을 수행할 수 있게 도와주는 API
 
- 클래스
+
+## 4. TodoList
 
 
 
