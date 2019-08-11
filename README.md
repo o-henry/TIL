@@ -254,6 +254,10 @@ Life Cycle API
 2.Componenet 구조
  기능별로 Component 분리
  재사용 가능한 Component 만들기
+ 
+ ## 20190811 SUN
+ ### 리액트 복습
+ 컴포넌트 별로 분리 한다 => 각 기능별로 새로운 function / class 를 생성하고, 데이터를 뿌려주는 부분을 상정 structure 를 짠다.
 
 
 
