@@ -283,7 +283,7 @@ export default class App extends Component {
 }
 ```
 App.js 에 코드는 위와 같다. 
-render()되는 부분에서 "<TodoListTemplate>" 같은 녀석들은 TodoListTemplate.js 파일내의 TodoListTemplate이라는 이름으로 정의된 함수 또는 클래스를 App.js로 불러온다고 생각하면 된다.
+render()되는 부분에서 '<'TodoListTemplate'>' 같은 녀석들은 TodoListTemplate.js 파일내의 TodoListTemplate이라는 이름으로 정의된 함수 또는 클래스를 App.js로 불러온다고 생각하면 된다.
 
 
 
