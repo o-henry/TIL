@@ -248,13 +248,13 @@ Life Cycle API
 <hr/>
 ## 20190810 SAT
 ### Sprint 
-    #### TodoList
-    1.데이터 관리.
-    데이터를 저장할 모양을 정하는 것이 매우 중요하다.
+#### TodoList
+1.데이터 관리.
+데이터를 저장할 모양을 정하는 것이 매우 중요하다.
 
-    2.Componenet 구조
-     기능별로 Component 분리
-     재사용 가능한 Component 만들기
+2.Componenet 구조
+ 기능별로 Component 분리
+ 재사용 가능한 Component 만들기
 
  <hr/>
  ## 20190811 SUN
