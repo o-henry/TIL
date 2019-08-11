@@ -263,7 +263,27 @@ Life Cycle API
 ### 리액트 복습
 컴포넌트 별로 분리 한다 => 각 기능별로 새로운 function / class 를 생성하고, 데이터를 뿌려주는 부분을 상정 structure 를 짠다.
 
+다시 기초부터.
 
+App.js
+```js
+import React, { Component } from 'react'
+import TodoListTemplate from './components/TodoListTemplate';
+import Form from './components/Form'
+import TodoItemList from './components/TodoItemList'
+
+export default class App extends Component {
+  render() {
+    return (
+      <TodoListTemplate form={<Form/>}> {/* components */}
+        <TodoItemList />
+      </TodoListTemplate>
+    )
+  }
+}
+```
+App.js 에 코드는 위와 같다. 
+render()되는 부분에서 <TodoListTemplate> 같은 녀석들은 TodoListTemplate.js 파일내의 TodoListTemplate이라는 이름으로 정의된 함수 또는 클래스를 App.js로 불러온다고 생각하면 된다.
 
 
 
