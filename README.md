@@ -318,3 +318,6 @@ https://www.youtube.com/watch?time_continue=467&v=8aGhZQkoFbQ
 이벤트 루프와 동시성.
 setTimeout 과 같은 비동기적 함수를 실행시에, 스택에서 쌓여있는 채로 있는것이 아닌 스택에 쌓인후 사라진뒤에, 다시 호출된다?
 
+### Node.js
+이벤트 기반 논블로킹 I/O 모델
+유저의 클릭이나 네트워크에 리소스를 요청하는 이벤트가 논블로킹으로 이루어지는 Input Output model
