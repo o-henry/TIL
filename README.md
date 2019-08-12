@@ -287,6 +287,21 @@ render()되는 부분에서 '<'TodoListTemplate'>' 같은 녀석들은 TodoListT
 
 https://i.imgur.com/nnYKPBo.png
 
+<hr/>
+
+## 20190812 MON
+### Sprint Review
+
+Component 단위로 생각하기.
+1. 기능별로 / 
+2. 재사용 가능한 /
+
+기능별로 나누기. 
+
+*CSS
+Ant Design -> React Component  
+Semantic Ui React
+https://www.styled-components.com/
 
 
 
