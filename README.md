@@ -305,6 +305,16 @@ https://www.styled-components.com/
 
 ### Server and Node
 
-1.Event loop
+1.Event loop && call stack
+JavaScript 는 Single Thread 언어로 한번에 하나의 일만 처리할 수 있다.
 
+https://www.youtube.com/watch?time_continue=467&v=8aGhZQkoFbQ
+#### 블로킹 
+네트워크 요청이나 이미지 프로세싱 같이 느린동작이 스택에 남아있는 것을 보통 블로킹 이라고 합니다.
+위 동작들이 스택에 남아있는 동안에는 브라우저에서 다른 작동을 할수 없습니다.
+
+#### 비동기 콜백
+어떤 코드를 실행하면 콜백을 받고 이걸 나중에 실행한다.
+이벤트 루프와 동시성.
+setTimeout 과 같은 비동기적 함수를 실행시에, 스택에서 쌓여있는 채로 있는것이 아닌 스택에 쌓인후 사라진뒤에, 다시 호출된다?
 
