@@ -326,4 +326,5 @@ setTimeout 과 같은 비동기적 함수를 실행시에, 스택에서 쌓여�
 ## 20190813 TUE
 토이문제
 sorted-rotated array에서의 BinarySearch 의 활용.
+
 http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
