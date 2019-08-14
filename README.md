@@ -336,6 +336,10 @@ http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
 <hr/>
 
 ## 20190814 WED
+
+### Toy-12
+순열 조합 문제
+
 #### JavaScript Event Loop
 node.js 와 server side -> v8 엔진의 사용
 
