@@ -324,7 +324,7 @@ setTimeout 과 같은 비동기적 함수를 실행시에, 스택에서 쌓여�
 
 
 ## 20190813 TUE
-토이문제
+#### Toy11
 sorted-rotated array에서의 BinarySearch 의 활용.
 
 http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
@@ -337,7 +337,7 @@ http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
 
 ## 20190814 WED
 
-### Toy-12
+#### Toy12
 순열 조합 문제
 
 #### JavaScript Event Loop
