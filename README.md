@@ -340,6 +340,29 @@ http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
 #### Toy12
 순열 조합 문제
 
+```js
+var powerSet = function(str){
+let newStr=''
+for(let x=0;x<str.length;x++){
+    if(x===str.indexOf(str[x])){
+     newStr+=str[x]
+    }
+}
+let result=[""]
+ function combi(prefix,str){
+   for(let i=0;i<str.length;i++){
+       result.push(prefix+str[i])
+       combi(prefix+str[i],str.slice(i+1))
+   }
+
+ }
+ combi("",newStr)
+
+
+return result
+}
+```
+
 #### JavaScript Event Loop
 node.js 와 server side -> v8 엔진의 사용
 
