@@ -328,3 +328,25 @@ setTimeout 과 같은 비동기적 함수를 실행시에, 스택에서 쌓여�
 sorted-rotated array에서의 BinarySearch 의 활용.
 
 http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
+
+#### NodeJS
+서버와의 연동.
+
+
+<hr/>
+
+## 20190814 WED
+#### JavaScript Event Loop
+node.js 와 server side -> v8 엔진의 사용
+
+V8 엔진의 구성
+Call Stack, Task Queue(Event queue), Heap
+
+Call Stack, 자바스크립트는 단 하나의 콜 스택을 갖고 있다.
+Task Queue, Call stack 이루어졌을때, 먼저 대기열에 온 순서대로 실행 된다.
+SetTimeout같은 비동기로 호출되는 함수들은 Task Queue에 enqueue된다.
+자바스크립트에서는 이벤트에 의해 실행되는 함수(핸들러)들이 비동기로 실행된다. 자바스크립트 엔진이 아닌 Web PI 영역에 따로 정의되어 있는 함수들은 비동기로 실행된다.
+
+
+
+https://asfirstalways.tistory.com/362
