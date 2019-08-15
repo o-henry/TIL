@@ -377,3 +377,11 @@ SetTimeout같은 비동기로 호출되는 함수들은 Task Queue에 enqueue된
 
 
 https://asfirstalways.tistory.com/362
+
+
+<hr/>
+
+## 20190815 THU
+
+Node.js 프로그래밍 복습 ( Do It! Node.js 책 )
+
