@@ -391,3 +391,60 @@ Node.js 프로그래밍 복습 ( Do It! Node.js 책 )
 BFS
 
 Node.js 
+
+### Promise 
+
+**'Promise는 자바스크립트 비동기 처리에 사용되는 객체'
+
+*비동기와 콜백
+비동기 처리? 그게 뭔가요? (Non- blocking)
+자바스크립트의 비동기 처리란 특정 코드의 연산이 끝날 때까지 코드의 실행을 멈추지 않고 다음 코드를 먼저 실행하는 자바스크립트의 특성을 의미합니다. 
+
+**특정 로직의 실행이 끝날 때까지 기다려주지 않고 나머지 코드를 먼저 실행하는 것이 비동기 처리입니다. 
+
+#### 프로미스의 3가지 상태 (states)
+프로미스의 처리 과정.
+
+Pending(대기) : 비동기 처리 로직이 완료되지 않은 상태
+```js
+new Promise();
+new Promise(function(resolve, reject){
+
+});
+```
+
+Fulfilled(이행(완료)) : 비동기 처리가 완료되어 프로미스가 결과 값을 반환해준 상태
+```js
+new Promise(function(resolve, reject){
+    resolve();
+});
+
+function getData(){
+    return new Promise(function(resolve, reject){
+        var data = 100;
+        resolve(data);
+    })
+}
+
+// then()을 이용하여 처리 결과 값을 받는다.
+getData().then(function(resolveData){
+    console.log(resolvedData);
+});
+```
+
+Rejected(실패) : 비동기 처리가 실패하거나 오류가 발생한 상태
+```js
+function getData(){
+    return new Promise(function(resolve, reject){
+        var data = 100;
+        resolve(data);
+    })
+}
+
+// then()을 이용하여 처리 결과 값을 받는다.
+getData().then().catch(function(err){
+    console.log(err);
+});
+```
+
+    
