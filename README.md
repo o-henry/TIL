@@ -34,7 +34,7 @@ Graph, Tree, Hash Table, B-Tree Discussion
 
 <hr/>
 
-### 6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
+#### 6. self Assessments - new 연산자를 통해서 생성된 인스턴스는 object 이다.
     함수 안에서 메서드를 만드는 방법
 1.  Use Closure
 2. 객체를 생성한뒤 , 해당 객체에 함수를 추가.
@@ -80,16 +80,18 @@ then 을 통해 받아온 값을 처리 할 수 있다.
 ```js
 fetch("/test.json") // (/test.json) 호출 (GET)
     .then(e => e.json()) // 비동기
-     .then(e => console.log(e)); // 비동기
+    .then(e => console.log(e)); // 비동기
 ```
 
 *옵션으로 POST
 
 ```js
 fetch("/test.json", {
-        method: "POST" // (/test.json) 호출 (POST)
-    }).then(e => e.json()) // 비동기
-   .then(e => console.log(e)); // 비동기
+    method: "POST" // (/test.json) 호출 (POST)
+})
+.then(e => e.json()) // 비동기
+.then(e => console.log(e)); // 비동기
+    
 **forEach(callback) // reference code
 function logArrayElements(element, index, array) {
   console.log('a[' + index + '] = ' + element);
