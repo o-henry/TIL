@@ -415,7 +415,10 @@ new Promise(function(resolve, reject){
 });
 ```
 
-Fulfilled(이행(완료)) : 비동기 처리가 완료되어 프로미스가 결과 값을 반환해준 상태
+Fulfilled(이행(완료)) : resolve를 아래와 같이 실행하면  비동기 처리가 완료되어 프로미스가 결과 값을 반환해준 상태
+
+*프로미스로 처리하기를 원하는 데이터를 Promise를 통해 resolve(data) 와 같이 받는다. 이후 then을 통해 결과값을 받는다. *
+
 ```js
 new Promise(function(resolve, reject){
     resolve();
@@ -450,6 +453,8 @@ getData()
     console.log(err);
 });
 ```
+
+![promise](https://joshua1988.github.io/images/posts/web/javascript/promise.svg)
 
 ## 20190817 SAT
 ### async & await
