@@ -30,3 +30,14 @@ HTTP Status Code는 서버에서 설정해주는 응답(Response) 정보.
 이 상태 코드로 에러 처리를 할 수 있다.
 
 ![structure](https://joshua1988.github.io/images/posts/web/http/http-full-structure.png)
+
+### HTTP GET / POST Method
+
+#### GET Method
+GET is used to request data from a specified resource.
+GET is one of the most common HTTP methods.
+
+#### POST Method
+POST is used to send data to a server to create/update a resource.
+
+
