@@ -444,7 +444,9 @@ function getData(){
 }
 
 // then()을 이용하여 처리 결과 값을 받는다.
-getData().then().catch(function(err){
+getData()
+.then()
+.catch(function(err){
     console.log(err);
 });
 ```
