@@ -464,4 +464,19 @@ getData()
 ### tree-map
 
 ## 20190819 MON
-### fetch ( https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95 )
+### fetch 
+(https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95)
+
+```js
+var myImage = document.querySelector('img');
+
+fetch('flowers.jpg')
+.then(function(response) {
+  return response.blob();
+})
+.then(function(myBlob) {
+  var objectURL = URL.createObjectURL(myBlob);
+  myImage.src = objectURL;
+});
+```
+이것은 네트워크를 통해 사진을 취득하여 <img>요소에  삽입하는 스크립트입니다. fetch()의 가장 간단한 사용법으로 단 하나의 파라미터를 전달합니다. 여기서 전달하는 파라미터는 fetch()에서 취득하고 싶은 리소스나 그에대한 주소입니다. 이 코드는 promise로 감싸고 있는 Response 오브젝트를 반환합니다.
