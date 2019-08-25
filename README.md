@@ -499,5 +499,9 @@ fetch('flowers.jpg')
 이러한 데이터를 쉽고 편리하게 다룰 수 있도록 하기 위해서 등장한 것이 데이터베이스 메니지먼트 시스템입니다.
 
 
+## 20190825 SUN
+#### Tree Map review
+#### fetch review
+#### inheritance-pseudo-classical reveiw
 
 
