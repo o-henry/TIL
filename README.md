@@ -508,7 +508,7 @@ fetch('flowers.jpg')
 #### inheritance-pseudo-classical review
 ```js
 Object.create(proto[, propertiesObject])
-새로 만든 객체의 프로토타입이어야 할 객체.
+proto = 새로 만든 객체의 프로토타입이어야 할 객체.
 ```    
 
 #### react review
