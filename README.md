@@ -500,8 +500,16 @@ fetch('flowers.jpg')
 
 
 ## 20190825 SUN
+
 #### Tree Map review
+
 #### fetch review
-#### inheritance-pseudo-classical reveiw
 
+#### inheritance-pseudo-classical review
+```js
+Object.create(proto[, propertiesObject])
+새로 만든 객체의 프로토타입이어야 할 객체.
+```    
 
+#### react review
+https://ko.reactjs.org/
