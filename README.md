@@ -501,6 +501,8 @@ fetch('flowers.jpg')
 
 ## 20190825 SUN
 
+#### CheckPoint review
+*Keyword : 호이스팅 : var 는 function 에서 / let 과 const는 block 에서 / 스코프 체인 * 
 #### Tree Map review
 
 #### fetch review
