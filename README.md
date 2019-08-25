@@ -514,4 +514,4 @@ proto = 새로 만든 객체의 프로토타입이어야 할 객체.
 #### react review
 https://ko.reactjs.org/
 
-<img width="488" alt="스크린샷 2019-08-25 오후 2 04 28" src="https://user-images.githubusercontent.com/48753593/63645919-217bab80-c743-11e9-8656-c310467b921d.png">
+<img width="500" alt="스크린샷 2019-08-25 오후 2 33 40" src="https://user-images.githubusercontent.com/48753593/63645998-61439280-c745-11e9-84b5-bfbf5426f9e0.png">
