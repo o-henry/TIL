@@ -522,6 +522,16 @@ https://ko.reactjs.org/
 
 <img width="962" alt="스크린샷 2019-08-27 오후 1 14 37" src="https://user-images.githubusercontent.com/48753593/63740645-dc838080-c8cc-11e9-9836-2c866f4c0ebf.png">
 
+## 20190829 THU
+
+### Redux
+
+<img width="1006" alt="스크린샷 2019-08-29 오후 11 28 46" src="https://user-images.githubusercontent.com/48753593/63994016-038cbd00-cb2e-11e9-9b24-09da678e078f.png">
+
+
+
+
+
 ## 20190830 FRI
 ### merge sort
 <img width="538" alt="스크린샷 2019-08-30 오전 9 40 11" src="https://user-images.githubusercontent.com/48753593/63985400-8b60d000-cb0a-11e9-8163-2bc18a291d7a.png">
