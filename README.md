@@ -547,7 +547,8 @@ function mergeSort (unsortedArray) {
   return merge(
     mergeSort(left), mergeSort(right)
   );
-}```
+}
+```
 
 setup basecase
 
