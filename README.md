@@ -522,4 +522,60 @@ https://ko.reactjs.org/
 
 <img width="962" alt="스크린샷 2019-08-27 오후 1 14 37" src="https://user-images.githubusercontent.com/48753593/63740645-dc838080-c8cc-11e9-9836-2c866f4c0ebf.png">
 
+## 20190830 FRI
+### merge sort
+<img width="538" alt="스크린샷 2019-08-30 오전 9 40 11" src="https://user-images.githubusercontent.com/48753593/63985400-8b60d000-cb0a-11e9-8163-2bc18a291d7a.png">
 
+algorithm : divide and conquer 
+>divide and conquer to sort a list of elements. Meaning, it will divide the bigger problem into smaller problems and then solve each of the small problems in order to solve the bigger problem that we started out with.
+
+```js
+// Merge Sort Implentation (Recursion)
+function mergeSort (unsortedArray) {
+  // No need to sort the array if the array only has one element or empty 
+  if (unsortedArray.length <= 1) {
+    return unsortedArray;
+  }
+  // In order to divide the array in half, we need to figure out the middle
+  const middle = Math.floor(unsortedArray.length / 2);
+
+  // This is where we will be dividing the array into left and right
+  const left = unsortedArray.slice(0, middle);
+  const right = unsortedArray.slice(middle);
+
+  // Using recursion to combine the left and right
+  return merge(
+    mergeSort(left), mergeSort(right)
+  );
+}```
+
+setup basecase
+
+```js
+if (unsortedArray.length <= 1) { 
+    return unsortedArray; 
+}
+```
+
+```js
+// Merge the two arrays: left and right
+function merge (left, right) {
+  let resultArray = [], leftIndex = 0, rightIndex = 0;
+
+  // We will concatenate values into the resultArray in order
+  while (leftIndex < left.length && rightIndex < right.length) {
+    if (left[leftIndex] < right[rightIndex]) {
+      resultArray.push(left[leftIndex]);
+      leftIndex++; // move left array cursor
+    } else {
+      resultArray.push(right[rightIndex]);
+      rightIndex++; // move right array cursor
+    }
+  }
+
+  // We need to concat here because there will be one element remaining
+  // from either left OR the right
+  return resultArray
+          .concat(left.slice(leftIndex))
+          .concat(right.slice(rightIndex));
+```
