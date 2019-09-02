@@ -144,9 +144,6 @@ React 엘리먼트를 루트 DOM 노드에 렌더링하려면 둘 다 ReactDOM.r
 
 <hr/>
 
-![props](./Desktop/props.png)
-
-
 
 ### 함수 컴포넌트와 클래스 컴포넌트( Components and Props )
 컴포넌트를 통해 UI를 재사용 가능한 개별적인 여러 조각으로 나누고, 각 조각을 개별적으로 살펴볼 수 있습니다.
