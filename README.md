@@ -590,3 +590,8 @@ function merge (left, right) {
           .concat(left.slice(leftIndex))
           .concat(right.slice(rightIndex));
 ```
+
+## 20190903 TUE
+
+### Front : React Nested Routes
+### Cookie 를 이용한 id 로그인 구현 ( 서버 - 클라이언트 )
