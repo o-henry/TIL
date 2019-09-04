@@ -595,3 +595,19 @@ function merge (left, right) {
 
 ### Front : React Nested Routes
 ### Cookie 를 이용한 id 로그인 구현 ( 서버 - 클라이언트 )
+
+## 20190904 THU
+
+### axios
+
+```js
+axios.post('http://pokeapi.co/api/v2/pokemon/', {
+  pokemon: 'Pikachu',
+  })
+  .then((response) => {
+    return response;
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+```
