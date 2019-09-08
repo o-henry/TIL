@@ -615,4 +615,5 @@ axios.post('http://pokeapi.co/api/v2/pokemon/', {
 ## 20190907 SAT
 ### 정적인 웹 페이지 vs 동적인 웹 페이지
 ### REDUX
-<img width="979" alt="스크린샷 2019-09-07 오후 5 53 52" src="https://user-images.githubusercontent.com/48753593/64472389-9cf44880-d198-11e9-8a1f-f8a8ee4d7949.png">
+<img width="985" alt="스크린샷 2019-09-08 오후 7 40 20" src="https://user-images.githubusercontent.com/48753593/64487065-9802c800-d270-11e9-99f4-a606a915a808.png">
+
