@@ -677,3 +677,12 @@ action -> reducer -> store -> components 순서로 생성
 ### 1.NODE.js 정리
 
 <img width="776" alt="스크린샷 2019-09-08 오후 8 42 00" src="https://user-images.githubusercontent.com/48753593/64489740-87167e80-d291-11e9-8579-944467a5f017.png">
+
+## 20190909 MON
+
+### AWS
+<hr />
+#### E3
+#### local balance
+#### cloud front
+
