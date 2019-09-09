@@ -647,6 +647,7 @@ store에 있는 data를 업데이트, 상태값을 수정 할 때 사용되는 �
 연결되어 있는 해당 컴포넌트에서 스토어의 데이터의 변경이 있을시 바로 반영 시킵니다.
 state를 변경시키기 위해선 action이 dispatch 되야 합니다.
 
+<hr />
 #### 코드 구현
 일련의 순서가 존재하지는 않지만, 
 action -> reducer -> store -> components 순서로 생성
