@@ -613,8 +613,8 @@ axios.post('http://pokeapi.co/api/v2/pokemon/', {
 ```
 
 ## 20190907 SAT
-### 정적인 웹 페이지 vs 동적인 웹 페이지
-### REDUX
+### 1.정적인 웹 페이지 vs 동적인 웹 페이지
+### 2.REDUX
 <img width="985" alt="스크린샷 2019-09-08 오후 7 40 20" src="https://user-images.githubusercontent.com/48753593/64487065-9802c800-d270-11e9-99f4-a606a915a808.png">
 
 <img width="1384" alt="스크린샷 2019-09-09 오전 9 44 26" src="https://user-images.githubusercontent.com/48753593/64497125-6debed00-d2e6-11e9-9e35-e171db2c55f5.png">
@@ -672,6 +672,6 @@ action -> reducer -> store -> components 순서로 생성
 <hr />
 
 ## 20190908 SUN
-### NODE.js 정리
+### 1.NODE.js 정리
 
 <img width="776" alt="스크린샷 2019-09-08 오후 8 42 00" src="https://user-images.githubusercontent.com/48753593/64489740-87167e80-d291-11e9-8579-944467a5f017.png">
