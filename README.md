@@ -614,6 +614,9 @@ axios.post('http://pokeapi.co/api/v2/pokemon/', {
 
 ## 20190907 SAT
 ### 1.정적인 웹 페이지 vs 동적인 웹 페이지
+정적 웹페이지 : 항상 같은 내용을 보여주는 웹페이지
+동적 웹페이지 : 사용자의 인터랙션에 따라 웹페이지가 바뀌어가는 것
+
 ### 2.REDUX
 <img width="985" alt="스크린샷 2019-09-08 오후 7 40 20" src="https://user-images.githubusercontent.com/48753593/64487065-9802c800-d270-11e9-99f4-a606a915a808.png">
 
