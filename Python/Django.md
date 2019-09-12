@@ -46,3 +46,5 @@
 ### Structure 
 <img width="1000" alt="스크린샷 2019-09-12 오후 8 26 31" src="https://user-images.githubusercontent.com/48753593/64780542-a1a36d00-d59b-11e9-9e0b-d46fe43d9ea8.png">
 
+### flow
+![Django-Request-Response-Call-Cycle](https://user-images.githubusercontent.com/48753593/64783557-0910eb00-d5a3-11e9-93bb-c56c28cc895e.png)
