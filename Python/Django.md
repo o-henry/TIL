@@ -31,3 +31,7 @@
 <img width="624" alt="스크린샷 2019-09-12 오후 4 25 51" src="https://user-images.githubusercontent.com/48753593/64762961-0948c080-d57a-11e9-92e0-ff2299b6811b.png">
 
 <img width="1242" alt="스크린샷 2019-09-12 오후 4 25 55" src="https://user-images.githubusercontent.com/48753593/64762960-0948c080-d57a-11e9-9505-449331d0ddb8.png">
+
+ 9. 앱 시작
+    + startapp appname 명령어는 장고가 앱을 만드는데 필요한 기반 구조를 만들게 합니다.
+    <img width="680" alt="스크린샷 2019-09-12 오후 4 38 15" src="https://user-images.githubusercontent.com/48753593/64763884-e3242000-d57b-11e9-99b7-e56269817791.png">
