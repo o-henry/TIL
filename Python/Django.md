@@ -5,8 +5,8 @@
 2.	프로젝트 폴더 만들기 ( 여기선 learning_log )
 
 3.	가상 환경 만들기
-    * python3 -m venv 11_env
-    +	virtualenv 설치하기 (pip3 install --user virtualenv)
+    + python3 -m venv 11_env
+    + 위 명령어가 실행되지 않을 경우virtualenv 설치하기 (pip3 install --user virtualenv)
     + cd learning_log$ virtualenv 11_env
     
 4.	가상 환경 활성화 하기
