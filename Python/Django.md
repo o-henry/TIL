@@ -44,5 +44,5 @@
 
 
 ### Structure 
+<img width="1000" alt="스크린샷 2019-09-12 오후 8 26 31" src="https://user-images.githubusercontent.com/48753593/64780542-a1a36d00-d59b-11e9-9e0b-d46fe43d9ea8.png">
 
-<img width="1006" alt="스크린샷 2019-09-12 오후 5 03 35" src="https://user-images.githubusercontent.com/48753593/64765549-46fc1800-d57f-11e9-866a-0d7e82a1c805.png">
