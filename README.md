@@ -145,12 +145,8 @@ fetch( url )
 
 웹 서비스는 위의 구성요소를 활용하여 사용자들이 여러 정보를 주고 받는 일련의 방식/형태
 
-<hr />
-
 ## 20190805 MON
 React 
-
-<hr />
 
 ## 20190809 FRI
 
@@ -241,7 +237,6 @@ Life Cycle API
 
 3. DOM을 직접 건드리지 않는다.
 
-<hr/>
 
 ## 20190810 SAT
 ### Sprint 
@@ -253,7 +248,6 @@ Life Cycle API
  기능별로 Component 분리
  재사용 가능한 Component 만들기
 
- <hr/>
 
 ## 20190811 SUN
 ### 리액트 복습
@@ -283,7 +277,6 @@ render()되는 부분에서 '<'TodoListTemplate'>' 같은 녀석들은 TodoListT
 
 https://i.imgur.com/nnYKPBo.png
 
-<hr/>
 
 ## 20190812 MON
 ### Sprint Review
@@ -329,8 +322,6 @@ http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/
 서버와의 연동.
 
 
-<hr/>
-
 ## 20190814 WED
 
 #### Toy12
@@ -374,8 +365,6 @@ SetTimeout같은 비동기로 호출되는 함수들은 Task Queue에 enqueue된
 
 https://asfirstalways.tistory.com/362
 
-
-<hr/>
 
 ## 20190815 THU
 
@@ -669,7 +658,6 @@ action -> reducer -> store -> components 순서로 생성
     store 생성
     const store = createStore(reducer)
 
-<hr />
 
 ## 20190908 SUN
 ### 1.NODE.js 정리
