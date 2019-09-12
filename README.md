@@ -699,4 +699,8 @@ action -> reducer -> store -> components 순서로 생성
 
 ## 20190910 TUE
 
+### Python basic
+
+### Django Setting
+
 
