@@ -41,4 +41,6 @@ GET is one of the most common HTTP methods.
 #### POST Method
 POST is used to send data to a server to create/update a resource.
 
+#### STRUCTURE
 
+<img width="942" alt="스크린샷 2019-09-12 오후 5 31 36" src="https://user-images.githubusercontent.com/48753593/64767731-32ba1a00-d583-11e9-9e0a-46385afcfc00.png">
