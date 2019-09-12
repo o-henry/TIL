@@ -7,6 +7,7 @@
 2.	프로젝트 폴더 만들기 ( 여기선 learning_log )
 
 3.	가상 환경 만들기 
+
     ( Virtualenv는 프로젝트 기초 전부를 Python/Django와 분리해줍니다. 웹사이트가 변경되어도 개발 중인 것에 영향을 미치지 않는다는 것입니다.)
     + python3 -m venv 11_env
     + 위 명령어가 실행되지 않을 경우 virtualenv 설치하기 (pip3 install --user virtualenv)
