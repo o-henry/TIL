@@ -91,21 +91,6 @@ fetch("/test.json", {
 })
 .then(e => e.json()) // 비동기
 .then(e => console.log(e)); // 비동기
-    
-**forEach(callback) // reference code
-function logArrayElements(element, index, array) {
-  console.log('a[' + index + '] = ' + element);
-}
-
-
-인덱스 2는 배열의 그 위치에 항목이 없기에
-건너뜀을 주의하세요.
-[2, 5, , 9].forEach(logArrayElements);
-기록:
-a[0] = 2
-a[1] = 5
-a[3] = 9
-
 ```
 
 
