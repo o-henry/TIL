@@ -1,5 +1,7 @@
 ### Django
 
+#### Setting
+
 1.	명세 만들기 ( 프로젝트 목표를 상세히 다루고, 기능과 외형, 사용자 인터페이스를 설명하는 문서 )
 
 2.	프로젝트 폴더 만들기 ( 여기선 learning_log )
@@ -35,3 +37,8 @@
  9. 앱 시작
     + startapp appname 명령어는 장고가 앱을 만드는데 필요한 기반 구조를 만들게 합니다.
     <img width="680" alt="스크린샷 2019-09-12 오후 4 38 15" src="https://user-images.githubusercontent.com/48753593/64763884-e3242000-d57b-11e9-99b7-e56269817791.png">
+
+
+### Structure 
+
+<img width="1006" alt="스크린샷 2019-09-12 오후 5 03 35" src="https://user-images.githubusercontent.com/48753593/64765549-46fc1800-d57f-11e9-866a-0d7e82a1c805.png">
