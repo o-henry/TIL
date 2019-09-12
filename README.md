@@ -75,7 +75,7 @@ fetch('주소', 설정객체).then(콜백).catch(콜백);
 .. fetch 만을 했을때는 서버에 저장된 정보를 그대로 가져온다.
 then 을 통해 받아온 값을 처리 할 수 있다.
 
-*GET
+*GET*
 
 ```js
 fetch("/test.json") // (/test.json) 호출 (GET)
@@ -83,7 +83,7 @@ fetch("/test.json") // (/test.json) 호출 (GET)
     .then(e => console.log(e)); // 비동기
 ```
 
-*옵션으로 POST
+*옵션으로 POST*
 
 ```js
 fetch("/test.json", {
@@ -123,7 +123,7 @@ Web Architecture 란?
     Application Programming Interface(API)
     어떤 프로그램에서 사용할 수 있도록 운영체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스
 
-*인터페이스: 서로 다른 두개의 시스템, 장치 사이에서 정보나 신호를 주고받는 경우의 접점이나 경계면
+*인터페이스: 서로 다른 두개의 시스템, 장치 사이에서 정보나 신호를 주고받는 경우의 접점이나 경계면*
 
 Client (=== Browser)
 사용자가 보기 좋게, 편하게 만들어 주는 어플리케이션
@@ -136,7 +136,6 @@ HTTP
  
 HTTP 장점
 클라이언트와 서버 간에 요청의 제한 없이 정보를 저장하거나 하지 않기 때문에 무한히 요청하고 응답할 수 있다.
-eg) Siri
 
 HTTP 단점
 저장을 하지 않는 다는것이 단점이다. 그래서 요청은 항상 독립적인 요청이다.
