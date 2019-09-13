@@ -66,7 +66,7 @@
 
 ### Make Prjoect
 
-7. django-admin.py startproject learning_log . 을 하면,
+7. django-admin.py startproject learning_log . 을 하면, 아래와 같은 디렉토리 구조가 보입니다.
     
     ```
     djangogirls
