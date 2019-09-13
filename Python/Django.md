@@ -77,10 +77,16 @@
         wsgi.py
         __init__.py
         ```
-    
+
+manage.py 는 사이트 관리르 도와주는 역할을 하는 스크립트 입니다. 이 스크립트로 컴퓨터에서 웹 서버를 시작할 수 있습니다.
+
+settings.py 는 웹사이트 설정이 있는 파일.
+
+urls.py 는 urlresolver가 사용하는 패턴 목록을 포함하고 있습니다.
 
 
 <hr />
+
 > https://tutorial.djangogirls.org/ko/django_start_project/
 
 > 나의 첫 파이썬
