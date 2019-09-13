@@ -65,7 +65,22 @@
 ![Django-Request-Response-Call-Cycle](https://user-images.githubusercontent.com/48753593/64783557-0910eb00-d5a3-11e9-93bb-c56c28cc895e.png)
 
 ### Make Prjoect
-    
-    django-admin.py startproject learning_log .
 
+7. django-admin.py startproject learning_log . 을 하면,
+    
+    ```
+    djangogirls
+    ├───manage.py
+    └───mysite
+        settings.py
+        urls.py
+        wsgi.py
+        __init__.py
+        ```
+    
+
+
+<hr />
+> https://tutorial.djangogirls.org/ko/django_start_project/
+> 나의 첫 파이썬
 
