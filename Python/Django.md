@@ -82,5 +82,6 @@
 
 <hr />
 > https://tutorial.djangogirls.org/ko/django_start_project/
+
 > 나의 첫 파이썬
 
