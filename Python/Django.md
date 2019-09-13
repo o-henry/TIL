@@ -63,3 +63,9 @@
 
 ### flow
 ![Django-Request-Response-Call-Cycle](https://user-images.githubusercontent.com/48753593/64783557-0910eb00-d5a3-11e9-93bb-c56c28cc895e.png)
+
+### Make Prjoect
+    
+    django-admin.py startproject learning_log .
+
+
