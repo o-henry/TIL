@@ -26,19 +26,24 @@
     + cd learning_log$ virtualenv 11_env
     
 4.	가상 환경 활성화 하기
-    +	learning_log$ source 11_env/bin/activate
+    + learning_log$ source 11_env/bin/activate
     
-5.	장고 설치하기
-    +	(11_env) learning_log$ pip3 install Django
+5.  pip 최신 버전 확인 하기
+    + (11_env) ~$ python3 -m pip install --upgrade pip
+    <img width="483" alt="스크린샷 2019-09-13 오후 12 14 06" src="https://user-images.githubusercontent.com/48753593/64835202-03a5b600-d620-11e9-9bcd-85892b5258f0.png">
+
     
-6.	장고에서 프로젝트 만들기
+6.	장고 설치하기
+    + (11_env) learning_log$ pip3 install Django
+    
+7.	장고에서 프로젝트 만들기
     + django-admin.py startproject learning_log .
     
-7.	DB 만들기
+8.	DB 만들기
     + python3 manage.py migrate
     + SQlite 는 단 하나의 파일만 사용하는 데이터 베이스. 단순한 애플리케이션에 이상적 이다
     
-8. 프로젝트 보기
+9. 프로젝트 보기
     + python3 manage.py runserver
     
 
@@ -48,7 +53,7 @@
 
 <img width="1242" alt="스크린샷 2019-09-12 오후 4 25 55" src="https://user-images.githubusercontent.com/48753593/64762960-0948c080-d57a-11e9-9505-449331d0ddb8.png">
 
- 9. 앱 시작
+ 10. 앱 시작
     + startapp appname 명령어는 장고가 앱을 만드는데 필요한 기반 구조를 만들게 합니다.
     <img width="680" alt="스크린샷 2019-09-12 오후 4 38 15" src="https://user-images.githubusercontent.com/48753593/64763884-e3242000-d57b-11e9-99b7-e56269817791.png">
 
