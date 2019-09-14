@@ -14,22 +14,11 @@
 
 
 #### 1.Data Structure & OOP
-일정: 2019. 7. 24.부터 2019. 7. 27.까지
 Graph, Tree, Hash Table, B-Tree Discussion
-일정: 2019. 7. 25. 오전 10:00부터 오전 11:30까지
-
 #### 2.Inheritance pattern - Dance Party
-일정: 2019. 7. 29.부터 2019. 7. 30.까지
-
 #### 3.Algorithms (N-Queens)
-일정: 2019. 7. 31.부터 2019. 8. 1.까지
-
 #### 4.Interact with Server (Chatterbox Client)
-일정: 2019. 8. 2.부터 2019. 8. 3.까지
-
 #### 5.ES6 APIs & React (Recast.ly)
-일정: 2019. 8. 5.부터 2019. 8. 8.까지
-
 #### 6.self Assesments1
 
 <hr/>
