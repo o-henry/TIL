@@ -91,3 +91,4 @@ urls.py 는 urlresolver가 사용하는 패턴 목록을 포함하고 있습니�
 
 > 나의 첫 파이썬
 
+<img width="1255" alt="스크린샷 2019-09-14 오후 3 22 14" src="https://user-images.githubusercontent.com/48753593/64904717-da148980-d708-11e9-8bcf-479d3cfef0f4.png">
