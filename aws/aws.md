@@ -2,13 +2,13 @@
 
 ##### *초기 모델 Trend*
 
-–	인기 있는 상품 / 공통 성향이 있는 사람들 / 쓰지 않던 상품 제안
+ 인기 있는 상품 / 공통 성향이 있는 사람들 / 쓰지 않던 상품 제안
 
 ##### *개인화*
 
-–	룰 기반 추천 ( 인기 있는 상품 카운트 )
-–	Collaborative Filtering , Matrix Factorization
-–	Session 기반 추천 및 Deep Learning
+	룰 기반 추천 ( 인기 있는 상품 카운트 )
+ Collaborative Filtering , Matrix Factorization
+	Session 기반 추천 및 Deep Learning
 
 ##### *Personalize*
 
