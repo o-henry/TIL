@@ -17,7 +17,7 @@
 
 ##### *데이터 파이프라인*
 
- 주안점: 사용자 중심 , ITEM 중심 , 사용자 - ITEM Interaction 이에 따라서 schema 지정, 이에 따라 data format 을 구성 및 준비
+ 주안점: 사용자 중심 , ITEM 중심 , 사용자 - ITEM Interaction 이에 따라서 schema 지정, 이에 따라 Data Format 을 구성 및 준비
 
  데이터를 S3 업로드 -> API 를 통해 Personalize 연동 -> 알고리즘 선택을 통해 트레이닝 (AutoML 최적화)
  
