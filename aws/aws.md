@@ -6,9 +6,9 @@
 
 ##### *개인화*
 
-	룰 기반 추천 ( 인기 있는 상품 카운트 )
+ 룰 기반 추천 ( 인기 있는 상품 카운트 )
  Collaborative Filtering , Matrix Factorization
-	Session 기반 추천 및 Deep Learning
+ Session 기반 추천 및 Deep Learning
 
 ##### *Personalize*
 
