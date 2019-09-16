@@ -21,12 +21,14 @@
 ![docker1](https://user-images.githubusercontent.com/48753593/64953787-b7c46c80-d8be-11e9-8b9e-cdeda84225dd.jpg)
 
 <hr />
+
 # DOCKER
 
 Docker 에서 ubuntu image를 실행해보자. 
 
-각각의 선호의 하는 운영체제의 패키지 관리자가 이미지로 도커에서 구성되어 있다.
+각각의 선호 하는 운영체제의 패키지 관리자가 이미지로 도커에서 구성되어 있다.
 
+<hr />
 
 1.	도커 
 
@@ -36,17 +38,19 @@ Docker 에서 ubuntu image를 실행해보자.
 
 4.	용량이 큰 이유 ( 패키지 시스템만 있으면 사용이 불편, 커널만 제외한 리눅스 배포판이 전부 다 들어있다. 리눅스를 설치할때 필요한 공유자원들 / 라이브러리들)
 
-5.	이미지 - 실행파일과 라이브러리들의 조합 / 컨테이너 - 이미지를 실행한 상태 ( rough 하게 하면 이미지는 실행 파일, 프로세스가 컨테이너 ) 
+5.	이미지 - 실행파일과 라이브러리들의 조합 / 컨테이너 - 이미지를 실행한 상태 ( rough 하게 하면 이미지는 실행 파일, 프로세스가 컨테이너 )
 
-*먼저 설치한 Docker Version을 확인한다*
+<hr />
+
+##### *먼저 설치한 Docker Version을 확인한다*
 
 <img width="500" alt="스크린샷 2019-09-16 오후 10 29 51" src="https://user-images.githubusercontent.com/48753593/64963450-3d064c00-d8d4-11e9-992c-2bbfd368c58f.png">
 
-*현재 갖고있는 images를 확인한다 (원래는 hello-world 만이 예시로 담겨 있다.)
+##### *현재 갖고있는 images를 확인한다 (원래는 hello-world 만이 예시로 담겨 있다.)
 
 <img width="547" alt="스크린샷 2019-09-16 오후 10 32 55" src="https://user-images.githubusercontent.com/48753593/64963453-3d9ee280-d8d4-11e9-85a1-c6c65cd3e320.png">
 
-*docker pull ubuntu:14.04*
+##### *docker pull ubuntu:14.04*
 
   > ubuntu 운영체제데 통째로 가져오는것이 아닌 패키지 매니저만 가져오는 과정   
   > 용량은 docker images 로 확인이 가능하다.
@@ -55,36 +59,36 @@ Docker 에서 ubuntu image를 실행해보자.
 
 <img width="591" alt="스크린샷 2019-09-16 오후 10 34 44" src="https://user-images.githubusercontent.com/48753593/64963455-3d9ee280-d8d4-11e9-9fc1-a84863afe6d7.png">
 
-*ubuntu: 14.04 버전이 추가된 것을 알 수 있다.*
+##### *ubuntu: 14.04 버전이 추가된 것을 알 수 있다.*
 
 <img width="579" alt="스크린샷 2019-09-16 오후 10 35 31" src="https://user-images.githubusercontent.com/48753593/64963458-3d9ee280-d8d4-11e9-9358-fbc8264cc10b.png">
 
-*docker run -it ubuntu:14.04 /bin/bash*
+##### *docker run -it ubuntu:14.04 /bin/bash*
 
 ( /bin/bash 는 우분투 안 실행파일 ) 이렇게 하면 안으로 들어간다.
 ( /bin/bash 를 붙여야하는 이유 실행할 메인 실행파일을 지정해주어야 한다. 컨테이너 안에 있는 실행파일을 실행해야 컨테이너가 유지가 된다. ) 
 <img width="461" alt="스크린샷 2019-09-16 오후 10 43 31" src="https://user-images.githubusercontent.com/48753593/64963452-3d9ee280-d8d4-11e9-98c6-2fba93467a86.png">
 
-*새로운 운영체제에 들어간 상태 ( docker 로 생성한 가상 환경 )*
+##### *새로운 운영체제에 들어간 상태 ( docker 로 생성한 가상 환경 )*
 
 리눅스의 기본적인 디렉토리 
 
 ( i 는 Interactive 사용자가 입출력을 할 수 있는 상태 / t 는 가상 터미널 환경을 emulation 해주겠다 ) 
 <img width="678" alt="스크린샷 2019-09-16 오후 10 44 13" src="https://user-images.githubusercontent.com/48753593/64963456-3d9ee280-d8d4-11e9-8a54-9368007f30e2.png">
 
-*/bin/bash 실행여부를 확인 합니다.*
+##### */bin/bash 실행여부를 확인 합니다.*
 
 <img width="344" alt="스크린샷 2019-09-16 오후 10 45 35" src="https://user-images.githubusercontent.com/48753593/64963459-3d9ee280-d8d4-11e9-93b2-c0dc124a15c6.png">
 
-*다른 사용자들이 만든 image를 확인할 수 도 있습니다*
+##### *다른 사용자들이 만든 image를 확인할 수 도 있습니다*
 
 <img width="698" alt="스크린샷 2019-09-16 오후 10 36 38" src="https://user-images.githubusercontent.com/48753593/64963451-3d064c00-d8d4-11e9-8960-87315a222b29.png">
 
-*운영체제(여기선 ubuntu) 내에서 apt-get update 를 먼저 실행합니다.*
+##### *운영체제(여기선 ubuntu) 내에서 apt-get update 를 먼저 실행합니다.*
 
 <img width="520" alt="스크린샷 2019-09-16 오후 10 46 37" src="https://user-images.githubusercontent.com/48753593/64963460-3e377900-d8d4-11e9-8976-8c70bf225724.png">
 
-*docker에서 생성한 운영체제(가상 머신) 에 git을 설치합니다.*
+##### *docker에서 생성한 운영체제(가상 머신) 에 git을 설치합니다.*
 
 apt-get install git // git 설치
 
