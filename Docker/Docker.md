@@ -22,5 +22,6 @@
 
 <hr />
 
-### Docker-Compose 는 컨테이너를 Stack-Service-Task 라는 세가지 가상 계층으로 구분해 관리한다.
+### Docker-Compose 
+  컨테이너를 Stack-Service-Task 라는 세가지 가상 계층으로 구분해 관리한다.
 
