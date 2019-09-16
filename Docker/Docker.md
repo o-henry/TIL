@@ -46,7 +46,7 @@ Docker 에서 ubuntu image를 실행해보자.
 
 <img width="500" alt="스크린샷 2019-09-16 오후 10 29 51" src="https://user-images.githubusercontent.com/48753593/64963450-3d064c00-d8d4-11e9-992c-2bbfd368c58f.png">
 
-##### *현재 갖고있는 images를 확인한다 (원래는 hello-world 만이 예시로 담겨 있다.)
+##### *현재 갖고있는 images를 확인한다 (원래는 hello-world 만이 예시로 담겨 있다.)*
 
 <img width="547" alt="스크린샷 2019-09-16 오후 10 32 55" src="https://user-images.githubusercontent.com/48753593/64963453-3d9ee280-d8d4-11e9-85a1-c6c65cd3e320.png">
 
