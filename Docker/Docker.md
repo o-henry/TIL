@@ -89,7 +89,7 @@ Docker 에서 ubuntu image를 실행해보자.
 
 #### *docker에서 생성한 운영체제(가상 머신) 에 git을 설치합니다.*
 
-apt-get install git // git 설치
+apt-get install git 
 
 <img width="487" alt="스크린샷 2019-09-16 오후 10 48 08" src="https://user-images.githubusercontent.com/48753593/64963463-3e377900-d8d4-11e9-9440-52c28e020ef2.png">
 
