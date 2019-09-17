@@ -89,6 +89,19 @@ urls.py 는 urlresolver가 사용하는 패턴 목록을 포함하고 있습니�
 
 > https://tutorial.djangogirls.org/ko/django_start_project/
 
-> 나의 첫 파이썬
-
 <img width="1255" alt="스크린샷 2019-09-14 오후 3 22 14" src="https://user-images.githubusercontent.com/48753593/64904717-da148980-d708-11e9-8bcf-479d3cfef0f4.png">
+
+### View
+
+    MVC Framework에서 말하는 Controller와 비슷한 역활
+    View는 필요한 데이타를 모델 (혹은 외부)에서 가져와서 적절히 가공하여 웹 페이지 결과를 만들도록 컨트롤하는 역활
+    View들은 Django App 안의 views.py 라는 파일에 정의하게 되는데, 각 함수가 하나의 View를 정의한다.
+    
+### MTV 패턴
+
+    Model은 데이타를 표현하는데 사용되며, 하나의 모델 클래스는 DB에서 하나의 테이블로 표현된다
+    View는 Model로부터 데이터를 읽거나 저장할 수 있으며, Template를 호출하여 데이터를 UI 상에 표현하도록 할 수 있다.
+    Template는 HTML을 생성하는 것을 목적으로 하는 컴포넌트 이다.
+    
+
+
