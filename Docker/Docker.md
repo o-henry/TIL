@@ -10,8 +10,6 @@
 
 ![vm-vs-docker](https://user-images.githubusercontent.com/48753593/64954349-471e4f80-d8c0-11e9-8968-e8234d4962cc.png)
 
-<img width="1162" alt="스크린샷 2019-09-16 오후 8 51 32" src="https://user-images.githubusercontent.com/48753593/64955886-4edff300-d8c4-11e9-9172-2b03832e8ce4.png">
-
 #### 서버 분산 처리 용이
 
 ![1_344Hiafp_XQXYVmuTOQzHA](https://user-images.githubusercontent.com/48753593/64953288-6f587f00-d8bd-11e9-89bb-15e47b5b4f95.png)
