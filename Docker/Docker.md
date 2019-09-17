@@ -66,6 +66,7 @@ Docker 에서 ubuntu image를 실행해보자.
 #### *docker run -it ubuntu:14.04 /bin/bash*
 
 ( /bin/bash 는 우분투 안 실행파일 ) 이렇게 하면 안으로 들어간다.
+
 ( /bin/bash 를 붙여야하는 이유 실행할 메인 실행파일을 지정해주어야 한다. 컨테이너 안에 있는 실행파일을 실행해야 컨테이너가 유지가 된다. ) 
 <img width="461" alt="스크린샷 2019-09-16 오후 10 43 31" src="https://user-images.githubusercontent.com/48753593/64963452-3d9ee280-d8d4-11e9-98c6-2fba93467a86.png">
 
