@@ -18,8 +18,7 @@
 
 3.	가상 환경 만들기 
 
-    > *Virtualenv는 프로젝트 기초 전부를 Python/Django와 분리해줍니다* 
-       
+    > *Virtualenv는 프로젝트 기초 전부를 Python/Django와 분리해줍니다*  
     > *웹사이트가 변경되어도 개발 중인 것에 영향을 미치지 않는다는 것입니다*
     
     ```
@@ -38,8 +37,6 @@
     (11_env) ~$ python3 -m pip install --upgrade pip
       ```
    
-<img width="483" alt="스크린샷 2019-09-13 오후 12 14 06" src="https://user-images.githubusercontent.com/48753593/64835202-03a5b600-d620-11e9-9bcd-85892b5258f0.png">
-
     
 6.	장고 설치하기
     ```
