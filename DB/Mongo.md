@@ -26,3 +26,23 @@
 
   ### *docker exec -it (mongodb) bash
   <img width="579" alt="스크린샷 2019-09-18 오후 9 35 58" src="https://user-images.githubusercontent.com/48753593/65149043-5cc87c00-da5c-11e9-97c7-c7955c6c8b54.png">
+
+
+## mongo shell - 명령어 
+
+  ### mongo
+    mongo 내부.
+  <img width="584" alt="스크린샷 2019-09-18 오후 9 38 02" src="https://user-images.githubusercontent.com/48753593/65149201-a2854480-da5c-11e9-85ac-96fce7b18025.png">
+  
+<img width="594" alt="스크린샷 2019-09-18 오후 9 38 16" src="https://user-images.githubusercontent.com/48753593/65149203-a31ddb00-da5c-11e9-92d1-e89dc02a0fda.png">
+
+  ### use (db name) 
+     use는 현재 존재하지않는 dbname 도 사용 가능하다
+   <img width="180" alt="스크린샷 2019-09-18 오후 9 39 17" src="https://user-images.githubusercontent.com/48753593/65149299-cfd1f280-da5c-11e9-98d1-58e95b069083.png">
+   <img width="186" alt="스크린샷 2019-09-18 오후 9 39 30" src="https://user-images.githubusercontent.com/48753593/65149298-cfd1f280-da5c-11e9-8bb3-a1a78e4d194f.png">
+
+<img width="157" alt="스크린샷 2019-09-18 오후 9 42 35" src="https://user-images.githubusercontent.com/48753593/65149553-40790f00-da5d-11e9-86a5-ad27efdf7c25.png">
+
+<img width="610" alt="스크린샷 2019-09-18 오후 9 42 29" src="https://user-images.githubusercontent.com/48753593/65149552-3fe07880-da5d-11e9-90dc-74b29ae15371.png">
+
+
