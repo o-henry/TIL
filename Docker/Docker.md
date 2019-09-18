@@ -108,7 +108,8 @@ apt-get install git
     우리가 만든 To Do App의 경우 일단 데이터베이스가 필요하고, backend API서비스가 필요하고, 
     Frontend 서비스가 필요하다. 그리고 이런 웹 앱을 전부 deploy 하기 위해서는 데이터베이스,API,frontend 서버를 각각 환경설정하고 코드를 deploy해야 한다. 
 
-    도커의 compose는 각 컴포넌트의 Configuration과 dependency등을 yml이라는 하나의 파일에 정의하고 이 파일에 작성된 대로 도커에 올려주는(deploy해 주는)     툴이다. 포트는 몇이고, 컨테이너의 이름은 뭐이고, 로그 파일은 어디에 저장하고 이런 설정들을 
+    도커의 compose는 각 컴포넌트의 Configuration과 dependency등을 yml이라는 하나의 파일에 정의하고 
+    이 파일에 작성된 대로 도커에 올려주는(deploy해 주는) 툴이다. 포트는 몇이고, 컨테이너의 이름은 뭐이고, 로그 파일은 어디에 저장하고 이런 설정들을 
     yml파일 안에서 명시하면 그 내용(stack이라고 부른다) 그대로 docker compose를 이용해 한번에 docker에 올릴 수 있다. 
 
     docker-compose.yml파일을 MySpringApp (또는 스프링 부트 Dockerfile이 있는 디렉토리 경로)에 추가하도록 하자.
