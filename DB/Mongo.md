@@ -1,3 +1,7 @@
+## Mongo DB
+    mongo db는 NOSQL
+    고정 schema가 존재하지 않는다
+    이러한 특성을 동적 스키마라 한다. 이것은 collection 내의 document가 각자의 고유한 field를 가질 수 있다는 것을 의미한다.
 
 ## docker 터미널에서 mongo DB 설정
   
