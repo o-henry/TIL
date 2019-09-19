@@ -136,3 +136,14 @@ urls.py 는 urlresolver가 사용하는 패턴 목록을 포함하고 있습니�
     프로젝트와 앱은 무엇이 다를까요? 앱은 특정한 기능(블로그나 공공 기록물을 위한 데이터베이스나, 간단한 설문조사 앱)을 수행하는 웹 어플리케이션을 말합니다. 
     프로젝트는 이런 특정 웹 사이트를 위한 앱들과 각 설정들을 한데 묶어놓은 것입니다. 
     프로젝트는 다수의 앱을 포함할 수 있고, 앱은 다수의 프로젝트에 포함될 수 있습니다.
+
+### Django request / response
+
+<img width="721" alt="스크린샷 2019-09-19 오후 6 07 43" src="https://user-images.githubusercontent.com/48753593/65230379-bbe3ca80-db08-11e9-81d1-210f60b0dd8b.png">
+
+<img width="573" alt="스크린샷 2019-09-19 오후 6 08 01" src="https://user-images.githubusercontent.com/48753593/65230378-bbe3ca80-db08-11e9-96c9-3fcee7ddfb73.png">
+
+
+
+<img width="480" alt="스크린샷 2019-09-19 오전 11 08 58" src="https://user-images.githubusercontent.com/48753593/65230395-c00fe800-db08-11e9-901f-440f55fd4216.png">
+
