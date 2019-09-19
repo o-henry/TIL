@@ -28,7 +28,7 @@
   
   <img width="591" alt="스크린샷 2019-09-18 오후 9 34 33" src="https://user-images.githubusercontent.com/48753593/65148936-1f63ee80-da5c-11e9-8857-89913673fe7c.png">
 
-  ### *docker exec -it (mongodb) bash
+  ### *docker exec -it (mongodb) bash*
   <img width="579" alt="스크린샷 2019-09-18 오후 9 35 58" src="https://user-images.githubusercontent.com/48753593/65149043-5cc87c00-da5c-11e9-97c7-c7955c6c8b54.png">
 
 
