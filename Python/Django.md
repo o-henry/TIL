@@ -153,3 +153,6 @@ urls.py 는 urlresolver가 사용하는 패턴 목록을 포함하고 있습니�
 장고와 리액트를 연결한다는 것은 장고에서는 api를 제공해주고, 리액트는 그 api를 받아서 렌더링 해준다는 것을 의미합니다.
 
 
+### restful API
+
+https://medium.com/the-andela-way/creating-a-django-api-using-django-rest-framework-apiview-b365dca53c1d
