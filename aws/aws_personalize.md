@@ -13,7 +13,7 @@
  Data 준비에 대해서만 Personalize 사용 고객이 준비해주면 된다.
  
 
-##### 데이터 파이프라인
+### Data Pipeline
 
  주안점: 사용자 중심 인지 , ITEM 중심 인지, 사용자 - ITEM Interaction 인지에 따라서 schema 지정 및 Data Format 을 구성 및 준비
 
@@ -30,8 +30,6 @@
 
 
 <hr />
-
-### 20191008
 
 ### Personalize Update
 
