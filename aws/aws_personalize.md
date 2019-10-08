@@ -44,6 +44,9 @@
   
  최종적으로 create solution version -> campaign update 를 통해 추천결과를 업데이트 한다.
  
+ trainning을 주기적으로 해야한다.
+ 
+ put event 시 데이터는 들어가 있고, 트레이닝만 다시해주면 된다.
  
  #### Personalize 생성과정 
 
