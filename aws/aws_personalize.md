@@ -3,24 +3,12 @@
 ## 필요성
  > 사용자에게 꼭 필요한 추천상품을 AWS에서 만들어놓은 Algorithms을 통해 검색 없이도 추천해줄 수 있는 기능. 이는 즉 매출 상승에 영향을 미친다 (AWS 의 지표 로는 30% 이상 증가)
  
-##### 초기 모델 Trend
-
- 인기 있는 상품 / 공통 성향이 있는 사람들 / 쓰지 않던 상품 제안
- 
-
-##### 개인화
-
- 룰 기반 추천 ( 인기 있는 상품 카운트 )
- 
- Collaborative Filtering , Matrix Factorization
- 
- Session 기반 추천 및 Deep Learning
- 
-
 ##### Personalize
  
  구조: 데이터를 넣는 과정은 한번 / 모델은 상황에 맞게 생성하도록 디자인 되어있는 구조.
+ 
  API를 통해서 Service에 적용 가능하다.
+ 
  Data 준비에 대해서만 Personalize 사용 고객이 준비해주면 된다.
  
 
@@ -28,9 +16,11 @@
 
  주안점: 사용자 중심 인지 , ITEM 중심 인지, 사용자 - ITEM Interaction 인지에 따라서 schema 지정 및 Data Format 을 구성 및 준비
 
- 데이터를 S3 업로드 -> API 를 통해 Personalize 연동 -> 알고리즘 선택을 통해 트레이닝 (AutoML 최적화)
+ 데이터를 S3 업로드 -> API 를 통해 Personalize 연동 -> 알고리즘(레시피) 선택을 통해 트레이닝 (AutoML 최적화)
  
  배치성 / real-time
+ 
+ * 고려사항 : cold start 
  
  
 ##### Data Formatting 과 형식만 잘 잡혔다면 데이터를 올리고 난후 모델 생성은 매우 간단하다
