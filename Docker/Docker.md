@@ -125,4 +125,4 @@ apt-get install git
 ### pip install
 docker를 사용하는 중에 pip3 install 과 같이 패키지를 설치하려고 할때, 도커내부가 아닌 전역 또는 폴더에서 install 시 도커 내부 에서는 제대로 설치가 되지 않을 수 있다.
 
-따라서 install 시에는 
+따라서 install 시에는 docker-compose exec <filename> /bin/bash 와 같이 도커 컨테이너 내부에 들어간 후에 설치하게 되면 위와 같은 에러를 피할 수 있다.
