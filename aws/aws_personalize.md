@@ -5,24 +5,21 @@
  
  
 ## Personalize
- 
- 구조: 데이터를 넣는 과정은 한번 / 모델은 상황에 맞게 생성하도록 디자인 되어있는 구조.
- 
- API를 통해서 Service에 적용 가능하다.
- 
- Data 준비에 대해서만 Personalize 사용 고객이 준비해주면 된다.
- 
 
-### Data Pipeline
+ ### Data Pipeline
 
- 주안점: 사용자 중심 인지 , ITEM 중심 인지, 사용자 - ITEM Interaction 인지에 따라서 schema 지정 및 Data Format 을 구성 및 준비
-
- 데이터를 S3 업로드 -> API 를 통해 Personalize 연동 -> 알고리즘(레시피) 선택을 통해 트레이닝 (AutoML 최적화)
+ 사용자 중심 / ITEM 중심 / 사용자 - ITEM Interaction 인지에 따라서 **Schema 지정 및 Data Format 을 구성 및 준비**
  
- 배치성 / real-time
+ 생성한 데이터를 S3에 업로드 한다.
  
- * 고려사항 : cold start 
+ API 를 통해 Personalize 연동 
  
+ 알고리즘(레시피) 선택을 통해 트레이닝 (AutoML 최적화)
+ 
+ 
+![undefined](https://user-images.githubusercontent.com/48753593/66401545-48a1ea00-ea1e-11e9-94cb-ad9690c86c8e.png)
+![inawisdom-1](https://user-images.githubusercontent.com/48753593/66401650-75560180-ea1e-11e9-8977-975f9c191f94.gif)
+![product-page-diagram_amazon_personalize_how-it-works 3ceac8883c7d6bd67d7cf26d8a7d505520d02a40](https://user-images.githubusercontent.com/48753593/66401654-76872e80-ea1e-11e9-93d8-2c3f32bed16f.png)
  
 ##### Data Formatting 과 형식만 잘 잡혔다면 데이터를 올리고 난후 모델 생성은 매우 간단하다
 
