@@ -1,4 +1,4 @@
-#### git Ignore
+### git Ignore
 
 AWS 의 access key 와 같이 hub에 올라가서는 안되는 값의 경우 git ignore를 해주어야 한다. (보안상 매우 중요한 부분)
 
