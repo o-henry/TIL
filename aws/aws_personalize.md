@@ -4,7 +4,7 @@
  > 이는 즉 매출 상승에 영향을 미친다 (AWS 의 지표 로는 30% 이상 증가)
  
  
-##### Personalize
+## Personalize
  
  구조: 데이터를 넣는 과정은 한번 / 모델은 상황에 맞게 생성하도록 디자인 되어있는 구조.
  
@@ -33,7 +33,7 @@
 
 ### 20191008
 
-#### Personalize Update 일련 과정
+### Personalize Update
 
  ##### Airflow를 활용한 방법 
   
