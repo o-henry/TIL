@@ -120,3 +120,9 @@ apt-get install git
 혹시, 특이한 부분을 찾으셨나요? 버전정보가 클라이언트와 서버로 나뉘어져 있습니다. 도커는 하나의 실행파일이지만 실제로 클라이언트와 서버역할을 각각 할 수 있습니다. 도커 커맨드를 입력하면 도커 클라이언트가 도커 서버로 명령을 전송하고 결과를 받아 터미널에 출력해 줍니다.
 
 ![docker-host](https://user-images.githubusercontent.com/48753593/64958176-71c0d600-d8c9-11e9-84cf-63edb4a367ff.png)
+
+
+### pip install
+docker를 사용하는 중에 pip3 install 과 같이 패키지를 설치하려고 할때, 도커내부가 아닌 전역 또는 폴더에서 install 시 도커 내부 에서는 제대로 설치가 되지 않을 수 있다.
+
+따라서 install 시에는 
