@@ -34,10 +34,12 @@
 
 #### Personalize Update 일련 과정
 
- 1. Airflow를 활용한 방법
+ ##### Airflow를 활용한 방법 
+  
   특정 시간마다 S3 부터 생성 하는 과정을 반복한다. 데이터가 클수록 소요시간이 길어진다 
  
- 2. PutEvents API를 활용한 방법.
+ ##### PutEvents API를 활용한 방법.
+ 
   PutEvents를 통해 요구하는 형태의 데이터를 모은다. Cloud Watch를 통해 생성된 데이터를 확인한다.
   
  최종적으로 create solution version -> campaign update 를 통해 추천결과를 업데이트 한다.
