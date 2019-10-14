@@ -60,4 +60,4 @@
 
 #### 이벤트
 ```
-    노드는 
+    노드는 이벤트 기반(Event driven)으로 하는 논블로킹 입출력 방식(Non-blocking I/O model)이 특징입니다.
