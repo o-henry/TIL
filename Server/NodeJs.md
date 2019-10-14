@@ -26,4 +26,19 @@
     
     console.log('주소 문자열 : %s', curStr);
     console.dir(curUrl);
+    
+        Url { 
+            protocol: 'https:',
+            slashes: true,
+            auth: null,
+            host: 'm.search.naver.com',
+            port: null,
+            hostname: 'm.search.naver.com',
+            hash: null,
+            search: '?query=steve+jobs&where=m&sm=mtp_hty',
+            query: 'query=steve+jobs&where=m &sm=mtp_hty',
+            pathname: '/search.naver',
+            path: '/search.naver?query=steve+jobs&where=m&sm=mtp_hty',
+            href: 'https://m.search.naver.com/search.naver?query=steve+jobs&where=m&sm-mtp_hty' 
+            }
 ```
