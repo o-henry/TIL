@@ -49,5 +49,11 @@
     
     console.log('요청 파라미터 중 query의 값 : %s', param.query);
     console.log('원본 요청 파라미터 : %s', querystring.stringify(param));
+    
+        parse() - 요청 파라미터 문자열을 파싱하여 요청 파라미터 객체로 만들어 줍니다.
+        stringify() - 요청 파라미터 객체를 문자열로 변환합니다.
+        
+        '요청 파라미터 중 query의 값' : steve jobs
+        '원본 요청 파라미터' : query=steve+jobs&where=m &sm=mtp_hty
         
 ```
