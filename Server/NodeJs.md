@@ -16,5 +16,6 @@
       
       
 ```js
-    url
+    var url = require('url');
+    
 ```
