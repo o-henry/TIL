@@ -30,6 +30,6 @@ airflow 구현중 어려웠던 점
 
 *airflow 테스트 에 소요되는 시간
   airflow로 자동화 로직(데이터 워크플로우)을 만들때 결과를 기다리는데 3시간 가량 소요. 디버깅의 어려움
-  => airflow 가 task가 에러없이 실행되면 success 되는 점을 이용, 상위 task 에서 success 가 되게하고 하위 task 원하는 데이터를 받아오는지 테스트 해서 소 요시간을 줄임
+  => airflow 가 task가 에러없이 실행되면 success 되는 점을 이용, 상위 task 에서 success 가 되게하고 하위 task 원하는 데이터를 받아오는지 테스트 해서 소요시간을 줄임
 
 ```
