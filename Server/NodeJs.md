@@ -14,6 +14,7 @@
       parse() - 주소 문자열을 파싱하여 URL 객체를 만들어 줍니다.
       format() - URL 객체를 주소 문자열로 반환 합니다.
       
-      ```js
-        var url = require('url');
-      ```
+      
+```js
+    url
+```
